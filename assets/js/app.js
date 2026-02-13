@@ -42,6 +42,17 @@ window.App = (() => {
       loadJson("data/opportunities.json"),
       loadJson("data/events.json"),
     ]);
+   // meta info (home)
+  try {
+    const metaOpp = await loadJson("data/meta.json");
+    const metaEvt = await loadJson("data/meta_events.json");
+    const el = document.getElementById("meta-home");
+    if (el) {
+     const d1 = metaOpp?.lastUpdated ? new Date(metaOpp.lastUpdated).toLocaleString("el-GR") : "—";
+     const d2 = metaEvt?.lastUpdated ? new Date(metaEvt.lastUpdated).toLocaleString("el-GR") : "—";
+     el.textContent = `Ενημέρωση: Χρηματοδότηση ${d1} • Events ${d2}`;
+    }
+  } catch (e) {}
 
     const latestOpps = [...opps]
       .sort((a,b) => (a.deadline || "").localeCompare(b.deadline || ""))
