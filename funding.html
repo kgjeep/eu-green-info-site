@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Χρηματοδότηση — Περιβάλλον & Κλίμα</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="brandbar">
+   <div class="inner">
+    <span class="badge">Υποστήριξη</span>
+    <span class="brandtext">Η ιστοσελίδα υποστηρίζεται από το <strong>Μουσικό Σχολείο Κατερίνης</strong>.</span>
+   </div>
+  </div>
+
+  <header class="container">
+    <h1>Χρηματοδότηση</h1>
+    <nav class="nav">
+      <a href="index.html">Αρχική</a>
+      <a href="funding.html" class="active">Χρηματοδότηση</a>
+      <a href="actions.html">Δράσεις/Events</a>
+      <a href="citizens.html">Για Πολίτες</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Ευκαιρίες (Demo)</h2>
+      <p class="meta">Θα φορτώνονται από το <code>data/opportunities.json</code>.</p>
+      <p id="meta-funding" class="meta">Φόρτωση ενημέρωσης…</p>
+      <input id="funding-search" placeholder="Αναζήτηση (τίτλος, πρόγραμμα, δικαιούχος)..." style="width:100%; padding:10px; border-radius:10px; border:1px solid #ddd; margin:10px 0;">
+        <label class="meta" style="display:block; margin:6px 0 12px;">
+         <input type="checkbox" id="funding-only-active" />
+          Μόνο ενεργές (με deadline στο μέλλον)
+        </label>
+      <div id="funding-list">Φόρτωση…</div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+<script>
+  window.App?.renderFunding?.();
+</script>
+
+</body>
+</html>

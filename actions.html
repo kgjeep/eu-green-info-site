@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Δράσεις/Events — Περιβάλλον & Κλίμα</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="brandbar">
+   <div class="inner">
+    <span class="badge">Υποστήριξη</span>
+    <span class="brandtext">Η ιστοσελίδα υποστηρίζεται από το <strong>Μουσικό Σχολείο Κατερίνης</strong>.</span>
+  </div>
+ </div>
+
+  <header class="container">
+    <h1>Δράσεις / Events</h1>
+    <nav class="nav">
+      <a href="index.html">Αρχική</a>
+      <a href="funding.html">Χρηματοδότηση</a>
+      <a href="actions.html" class="active">Δράσεις/Events</a>
+      <a href="citizens.html">Για Πολίτες</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Επόμενες δράσεις (Demo)</h2>
+      <p class="meta">Θα φορτώνονται από το <code>data/events.json</code>.</p>
+      <p id="meta-events" class="meta">Φόρτωση ενημέρωσης…</p>
+      <input id="events-search" placeholder="Αναζήτηση (τίτλος, πόλη, χώρα)..." style="width:100%; padding:10px; border-radius:10px; border:1px solid #ddd; margin:10px 0;">
+      <div id="events-list">Φόρτωση…</div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+  <script>
+    window.App?.renderActions?.();
+  </script>
+</body>
+</html>
