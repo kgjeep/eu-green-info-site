@@ -6,6 +6,32 @@
   <title>Για Πολίτες — Περιβάλλον & Κλίμα</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const search = document.getElementById("citizens-search");
+  const meta = document.getElementById("citizens-search-meta");
+  if (!search) return;
+
+  function applyCitizensFilter() {
+    const q = (search.value || "").toLowerCase().trim();
+    const items = document.querySelectorAll(".list .item");
+    let shown = 0;
+
+    items.forEach(it => {
+      const text = it.textContent.toLowerCase();
+      const ok = !q || text.includes(q);
+      it.style.display = ok ? "" : "none";
+      if (ok) shown++;
+    });
+
+    if (meta) meta.textContent = q ? `Αποτελέσματα: ${shown}` : "";
+  }
+
+  search.addEventListener("input", applyCitizensFilter);
+});
+</script>
+
 <body>
   <div class="brandbar">
     <div class="inner">
@@ -32,6 +58,9 @@
         Εδώ θα βρεις επίσημες πηγές της ΕΕ/Ευρωβουλής και της Ελλάδας για: ενημέρωση, συμμετοχή, δράση, δεδομένα/χάρτες και χρηματοδοτήσεις
         για περιβάλλον & κλίμα.
       </p>
+      <input id="citizens-search" placeholder="Αναζήτηση στις πηγές (π.χ. Copernicus, διαβούλευση, Green Deal)…"
+       style="width:100%; padding:10px; border-radius:10px; border:1px solid #ddd; margin:10px 0;">
+      <p id="citizens-search-meta" class="meta"></p>
     </section>
 
     <section class="grid">
