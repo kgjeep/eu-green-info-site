@@ -1,0 +1,35 @@
+name: Update site data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 4 * * *" # daily 04:15 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update opportunities
+        run: node scripts/update_opportunities.mjs
+
+      - name: Update events
+        run: node scripts/update_events.mjs
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git commit -m "Auto-update data" || echo "No changes to commit"
+          git push
