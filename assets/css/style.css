@@ -39,3 +39,26 @@ body { font-family: system-ui, Arial; margin: 0; background: #f6f7f9; color: #11
   font-size:14px;
   opacity:.85;
 }
+:root{
+  --bg1:#f7f9fc;
+  --bg2:#eef3ff;
+  --card:#ffffff;
+  --border:#e6e6e6;
+}
+
+body{
+  background: radial-gradient(1200px 600px at 20% 0%, var(--bg2), transparent 60%),
+              radial-gradient(900px 500px at 90% 10%, #eaf7f1, transparent 55%),
+              linear-gradient(180deg, var(--bg1), #ffffff 55%);
+}
+
+.card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+}
+
+.brandbar{
+  background: rgba(255,255,255,.8);
+  backdrop-filter: blur(8px);
+}
