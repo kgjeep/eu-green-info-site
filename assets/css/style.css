@@ -62,3 +62,375 @@ body{
   background: rgba(255,255,255,.8);
   backdrop-filter: blur(8px);
 }
+/* =========================
+   Page Backgrounds (assets/images)
+   ========================= */
+
+/* Base background behavior */
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* nice parallax feel; remove if you dislike */
+}
+
+/* Dark overlay so text stays readable */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 14, 20, 0.55);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  z-index: -1;
+}
+
+/* Slight vignette for depth */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 75%, rgba(0,0,0,0.55) 100%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Per-page backgrounds (make sure body has these classes) */
+body.home {
+  background-image: url("../images/bg_home_climate_europe.png");
+}
+
+body.funding {
+  background-image: url("../images/bg_funding_green_projects.png");
+}
+
+body.events {
+  background-image: url("../images/bg_events_collaboration_europe.png");
+}
+
+body.citizens {
+  background-image: url("../images/bg_citizens_sustainable_living.png");
+}
+
+/* =========================
+   Content "glass" cards (optional but recommended)
+   Makes lists/sections readable on top of photo
+   ========================= */
+
+main {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* If you have item cards/lists, this helps a lot */
+.item, .list-item, .opportunity, .event {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+}
+
+/* Improve text contrast */
+body, p, li, .meta, .subtitle, .small {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+a {
+  color: rgba(180, 220, 255, 0.95);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Inputs on dark background */
+input, select, textarea {
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: rgba(255, 255, 255, 0.92);
+  border-radius: 10px;
+  padding: 10px 12px;
+  outline: none;
+}
+input::placeholder, textarea::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+/* ===== Fix contrast after backgrounds ===== */
+
+/* Keep navigation readable */
+.nav a {
+  color: rgba(255,255,255,0.92);
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+.nav a.active {
+  outline: 2px solid rgba(255,255,255,0.85);
+}
+
+/* Cards & items: ensure text is visible */
+.card, .item, main {
+  color: rgba(255,255,255,0.92);
+}
+
+/* Links inside items/cards must not stay #111 */
+.item a, .card a, main a, .btn {
+  color: rgba(180, 220, 255, 0.95);
+}
+
+/* Button stays readable */
+.btn {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.18);
+  color: rgba(255,255,255,0.95);
+}
+
+/* Brand bar: keep it “glass” but readable */
+.brandbar {
+  background: rgba(10, 14, 20, 0.35);
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+.badge { background: rgba(255,255,255,0.18); }
+.brandtext { color: rgba(255,255,255,0.85); }
+/* ===== HARD FIX: ensure overlay stays behind content ===== */
+
+/* Create a stacking context and keep background layers behind */
+body {
+  position: relative;
+}
+
+/* Put overlay layers at z-index:0 (behind content) */
+body::before,
+body::after {
+  z-index: 0 !important;
+}
+
+/* Put all real content above the overlays */
+.brandbar,
+.container,
+main,
+.nav,
+.card,
+.grid,
+.list,
+.item,
+.footer {
+  position: relative;
+  z-index: 1 !important;
+}
+
+/* Also ensure text is visible (safe defaults) */
+body {
+  color: #111;
+}
+
+/* Keep cards readable even on photo background */
+.card {
+  background: rgba(255,255,255,0.92);
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.item {
+  background: rgba(255,255,255,0.88);
+}
+
+/* Links */
+a, .item a, .nav a {
+  color: #111;
+}
+/* =========================
+   FINAL: backgrounds + readable UI
+   Put this at the VERY END of style.css
+   ========================= */
+
+/* Ensure overlays stay behind content */
+body { position: relative; }
+body::before, body::after { z-index: 0; }
+.brandbar, .container, main, .card, .item, .nav, .grid, .list, .footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Use photo background + overlay */
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Per-page backgrounds */
+body.home     { background-image: url("../images/bg_home_climate_europe.png"); }
+body.funding  { background-image: url("../images/bg_funding_green_projects.png"); }
+body.events   { background-image: url("../images/bg_events_collaboration_europe.png"); }
+body.citizens { background-image: url("../images/bg_citizens_sustainable_living.png"); }
+
+/* Overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 14, 20, 0.55);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 75%, rgba(0,0,0,0.55) 100%);
+  pointer-events: none;
+}
+
+/* Glass look for main surfaces */
+.brandbar {
+  background: rgba(255,255,255,0.10);
+  border-bottom: 1px solid rgba(255,255,255,0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.card, main {
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+.item {
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+/* Text */
+body, .brandtext, .meta, p, li, h1, h2, h3, h4, h5, h6, strong, label {
+  color: rgba(255,255,255,0.92);
+}
+.meta { opacity: 0.85; }
+
+/* Links */
+a, a:visited { color: rgba(180,220,255,0.95); }
+a:hover { text-decoration: underline; }
+
+/* Nav pills */
+.nav a {
+  color: rgba(255,255,255,0.92);
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+.nav a.active { outline: 2px solid rgba(255,255,255,0.85); }
+
+/* Buttons */
+.btn {
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.18);
+  color: rgba(255,255,255,0.95);
+}
+
+/* ✅ INPUTS / SEARCH — make them always visible */
+input, select, textarea {
+  background: rgba(0,0,0,0.28);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: rgba(255,255,255,0.95);
+  border-radius: 10px;
+  padding: 10px 12px;
+  outline: none;
+}
+input::placeholder, textarea::placeholder {
+  color: rgba(255,255,255,0.70);
+}
+input:focus, select:focus, textarea:focus {
+  border-color: rgba(180,220,255,0.85);
+  box-shadow: 0 0 0 3px rgba(180,220,255,0.18);
+}
+
+/* If you have checkboxes next to text, keep them visible */
+label { cursor: pointer; }
+/* =========================
+   POLISH PACK (drop-in)
+   Put this at the VERY END of style.css
+   ========================= */
+
+/* Better spacing rhythm */
+.container { padding: 20px; }
+.grid { gap: 16px; }
+.list { gap: 12px; }
+
+/* Softer, modern radius */
+.card, main { border-radius: 18px; }
+.item { border-radius: 16px; }
+
+/* Slightly stronger glass, less “washed” */
+.card, main, .item, .nav a, .brandbar {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Improve card depth */
+.card, main {
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.28),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
+.item {
+  box-shadow:
+    0 8px 18px rgba(0,0,0,0.20),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+/* Nice hover on list items */
+.item:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 12px 26px rgba(0,0,0,0.26),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+  border-color: rgba(180,220,255,0.32);
+  background: rgba(255,255,255,0.12);
+}
+
+/* Nav pills polish */
+.nav a {
+  transition: transform 140ms ease, background 140ms ease, border-color 140ms ease;
+}
+.nav a:hover {
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.14);
+  border-color: rgba(180,220,255,0.28);
+}
+
+/* Buttons polish */
+.btn {
+  transition: transform 140ms ease, background 140ms ease, border-color 140ms ease;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.18);
+  border-color: rgba(180,220,255,0.30);
+}
+
+/* Typography tweaks */
+h1 { letter-spacing: -0.02em; line-height: 1.15; }
+h2 { letter-spacing: -0.01em; }
+.meta { font-size: 12px; opacity: 0.82; }
+
+/* Make links feel “cleaner” */
+a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+/* Inputs polish */
+input, select, textarea {
+  transition: border-color 140ms ease, box-shadow 140ms ease, background 140ms ease;
+}
+input:hover, select:hover, textarea:hover {
+  background: rgba(0,0,0,0.32);
+}
+
+/* Slight separation between header and content */
+.brandbar { box-shadow: 0 6px 18px rgba(0,0,0,0.18); }
+
+/* Mobile performance: avoid fixed background (can stutter on phones) */
+@media (max-width: 900px) {
+  body { background-attachment: scroll; }
+  .container { padding: 16px; }
+}
