@@ -1,129 +1,221 @@
-// scripts/update_events.mjs
-// Fetch official CINEA "Event" RSS and write data/events.json + data/meta_events.json
+/**
+ * Update CINEA upcoming events by scraping the official homepage Events block.
+ *
+ * Source:
+ * https://cinea.ec.europa.eu/index_en
+ *
+ * Output:
+ * - data/events.json
+ * - data/meta_events.json
+ */
 
-import { writeFile } from "node:fs/promises";
+import fs from "node:fs";
+import path from "node:path";
 
-const RSS_URL =
-  "https://ec.europa.eu/newsroom/cinea/feed?item_type_id=1185&lang=en&orderby=item_date";
+const OUT_EVENTS = path.join("data", "events.json");
+const OUT_META = path.join("data", "meta_events.json");
+const SOURCE_URL = "https://cinea.ec.europa.eu/index_en";
 
-function decodeHtml(s = "") {
-  return s
-    .replaceAll("&amp;", "&")
-    .replaceAll("&lt;", "<")
-    .replaceAll("&gt;", ">")
-    .replaceAll("&quot;", '"')
-    .replaceAll("&#39;", "'")
+const MONTHS = {
+  Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6,
+  Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12,
+};
+
+function toIsoFromParts(dayStr, monAbbr, yearStr) {
+  const y = String(yearStr || "").trim();
+  const mon = String(monAbbr || "").trim();
+  const day = String(dayStr || "").trim();
+
+  if (!/^\d{4}$/.test(y)) return { startIso: "", endIso: "" };
+  const m = MONTHS[mon];
+  if (!m) return { startIso: "", endIso: "" };
+
+  // day can be: "17" or "02-06" or "17-19" or "04-05"
+  const range = day.match(/^(\d{1,2})\s*-\s*(\d{1,2})$/);
+  const pad2 = (n) => String(n).padStart(2, "0");
+  const mm = pad2(m);
+
+  if (range) {
+    const d1 = pad2(Number(range[1]));
+    const d2 = pad2(Number(range[2]));
+    return {
+      startIso: `${y}-${mm}-${d1}`,
+      endIso: `${y}-${mm}-${d2}`,
+    };
+  }
+
+  if (/^\d{1,2}$/.test(day)) {
+    const dd = pad2(Number(day));
+    return { startIso: `${y}-${mm}-${dd}`, endIso: "" };
+  }
+
+  return { startIso: "", endIso: "" };
+}
+
+function stripHtml(html) {
+  return html
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/(p|li|div|section|article|h\d)>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/\r/g, "")
+    .replace(/[ \t]{2,}/g, " ")
+    .replace(/\n{2,}/g, "\n")
     .trim();
 }
 
-function stripTags(html = "") {
-  return html.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+function normalize(s) {
+  return stripHtml(s).replace(/\s+/g, " ").trim();
 }
 
-function extractItems(xml) {
+function ensureAbsoluteUrl(href) {
+  if (!href) return "";
+  if (href.startsWith("http://") || href.startsWith("https://")) return href;
+  if (href.startsWith("/")) return `https://cinea.ec.europa.eu${href}`;
+  return `https://cinea.ec.europa.eu/${href}`;
+}
+
+function extractEventsFromIndexHtml(html) {
+  // Narrow to the Events block: <div id="block-eventsglobal" ...>
+  // Robust: take a large window after the Events block anchor.
+// (Regex-based "closing div" matching is fragile with nested HTML.)
+const idx = html.toLowerCase().indexOf('id="block-eventsglobal"');
+if (idx < 0) return [];
+const blockHtml = html.slice(idx, idx + 60000); // big enough to include all homepage events
+
+
+  // Each event item on the homepage contains:
+  // - span.ecl-date-block__day (e.g. 17 or 02-06)
+  // - abbr.ecl-date-block__month (Feb/Mar)
+  // - span.ecl-date-block__year (2026)
+  // - an <a href="/news-events/events/...">Title</a>
+  //
+  // We parse "chunks" starting at each date block day span.
+  const daySpanRe =
+    /<span[^>]*class="ecl-date-block__day"[^>]*>([\s\S]*?)<\/span>/gi;
+
   const items = [];
-  const re = /<item>([\s\S]*?)<\/item>/gi;
   let m;
-  while ((m = re.exec(xml))) items.push(m[1]);
-  return items;
-}
 
-function getTag(xml, tag) {
-  const m = xml.match(new RegExp(`<${tag}>([\\s\\S]*?)<\\/${tag}>`, "i"));
-  return m ? decodeHtml(m[1]) : "";
-}
+  while ((m = daySpanRe.exec(blockHtml)) !== null) {
+    const startPos = m.index;
+    const chunk = blockHtml.slice(startPos, startPos + 4000);
 
-function getCdataOrTag(xml, tag) {
-  const c = xml.match(
-    new RegExp(`<${tag}><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, "i")
-  );
-  if (c) return decodeHtml(c[1]);
-  return getTag(xml, tag);
-}
+    const dayRaw = normalize(m[1]); // like "17" or "02-06"
+    const monMatch = chunk.match(
+      /<abbr[^>]*class="ecl-date-block__month"[^>]*>([\s\S]*?)<\/abbr>/i
+    );
+    const yearMatch = chunk.match(
+      /<span[^>]*class="ecl-date-block__year"[^>]*>([\s\S]*?)<\/span>/i
+    );
 
-// Try to extract a date from the description (various formats appear)
-// 1) ISO date: 2026-02-12
-// 2) dd/mm/yyyy or dd-mm-yyyy
-// 3) "12 Feb 2026" style
-function guessEventDate(text) {
-  let m = text.match(/\b(20\d{2}-\d{2}-\d{2})\b/);
-  if (m) return m[1];
+    const mon = monMatch ? normalize(monMatch[1]) : "";
+    const year = yearMatch ? normalize(yearMatch[1]) : "";
 
-  m = text.match(/\b(\d{2})[\/\-](\d{2})[\/\-](20\d{2})\b/);
-  if (m) return `${m[3]}-${m[2]}-${m[1]}`;
+    const { startIso, endIso } = toIsoFromParts(dayRaw, mon, year);
+    if (!startIso) continue;
 
-  m = text.match(/\b(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(20\d{2})\b/i);
-  if (m) {
-    const day = String(m[1]).padStart(2, "0");
-    const mon = m[2].toLowerCase();
-    const year = m[3];
-    const map = {jan:"01",feb:"02",mar:"03",apr:"04",may:"05",jun:"06",jul:"07",aug:"08",sep:"09",oct:"10",nov:"11",dec:"12"};
-    return `${year}-${map[mon]}-${day}`;
+    // Title link: prefer /news-events/events/...
+    const aMatch = chunk.match(
+      /<a[^>]+href="([^"]*\/news-events\/events\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/i
+    ) || chunk.match(
+      /<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/i
+    );
+
+    const link = aMatch ? ensureAbsoluteUrl(aMatch[1]) : "";
+    const title = aMatch ? normalize(aMatch[2]) : "";
+
+    if (!title || /^See all our events$/i.test(title)) continue;
+
+    // Optional: try to grab type + venue from the list that follows in chunk text
+    const chunkText = normalize(chunk);
+
+    let type = "";
+    const typeMatch = chunkText.match(
+      /\b(Conferences and summits|Training and workshops|Expert meetings|Info days)\b/i
+    );
+    if (typeMatch) type = typeMatch[1];
+
+    let venue = "";
+    if (/online only/i.test(chunkText)) venue = "Online only";
+    else {
+      const venueMatch = chunkText.match(
+        /([A-Z][A-Za-zÀ-ÖØ-öø-ÿ .'-]{2,},\s*[A-Z][A-Za-zÀ-ÖØ-öø-ÿ .'-]{2,})/
+      );
+      if (venueMatch && venueMatch[1] && venueMatch[1].length <= 80) {
+        venue = venueMatch[1].trim();
+      }
+    }
+
+    items.push({
+      title,
+      date: startIso,
+      end_date: endIso || "",
+      date_label: endIso
+        ? `${dayRaw} ${mon} ${year}`
+        : `${dayRaw} ${mon} ${year}`,
+      type,
+      venue,
+      link,
+      source: "CINEA homepage events",
+    });
   }
 
-  return "";
+  // Deduplicate (title + start date)
+  const seen = new Set();
+  const out = [];
+  for (const e of items) {
+    const k = `${e.title}__${e.date}`;
+    if (seen.has(k)) continue;
+    seen.add(k);
+    out.push(e);
+  }
+
+  // Sort by start date ascending
+  out.sort((a, b) => String(a.date).localeCompare(String(b.date)));
+  return out;
 }
 
-function guessCityCountry(text) {
-  // Very lightweight heuristics (we can improve later):
-  // Look for patterns like "Brussels, Belgium" or "Online only"
-  const t = text;
-  if (/online/i.test(t)) return { city: "Online", country: "EU" };
+async function fetchText(url) {
+  const res = await fetch(url, {
+    headers: {
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
+      accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "accept-language": "en-GB,en;q=0.9",
+    },
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+  return await res.text();
+}
 
-  const m = t.match(/\b([A-Z][A-Za-z .'\-]+),\s*([A-Z][A-Za-z .'\-]+)\b/);
-  if (m) return { city: m[1].trim(), country: m[2].trim() };
-
-  return { city: "", country: "EU" };
+function writeJson(filePath, data) {
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
 }
 
 async function main() {
-  const res = await fetch(RSS_URL, { headers: { "User-Agent": "Mozilla/5.0" } });
-  if (!res.ok) throw new Error(`RSS fetch failed: ${res.status} ${res.statusText}`);
-  const xml = await res.text();
+  console.log("Updating events from CINEA homepage…");
 
-  const items = extractItems(xml).slice(0, 80);
+  const html = await fetchText(SOURCE_URL);
+  const events = extractEventsFromIndexHtml(html);
 
-  const events = items.map((it) => {
-    const title = getCdataOrTag(it, "title");
-    const url = getTag(it, "link");
-    const descHtml = getCdataOrTag(it, "description");
-    const descText = stripTags(descHtml);
+  writeJson(OUT_EVENTS, events);
 
-    const pubDate = getTag(it, "pubDate");
-    const pubISO = pubDate ? new Date(pubDate).toISOString().slice(0, 10) : "";
-    const date = guessEventDate(descText) || pubISO;
+  const meta = {
+    lastUpdated: new Date().toISOString(),
+    count: events.length,
+    source: SOURCE_URL,
+  };
+  writeJson(OUT_META, meta);
 
-    const loc = guessCityCountry(descText);
-
-    return {
-      title: title || "Untitled event",
-      country: loc.country || "EU",
-      city: loc.city || "",
-      date,
-      url: url || "",
-    };
-  }).filter(x => x.url);
-
-  await writeFile("data/events.json", JSON.stringify(events, null, 2), "utf-8");
-
-  await writeFile(
-    "data/meta_events.json",
-    JSON.stringify(
-      {
-        lastUpdated: new Date().toISOString(),
-        eventsCount: events.length
-      },
-      null,
-      2
-    ),
-    "utf-8"
-  );
-
-  console.log(`✅ Wrote ${events.length} events to data/events.json`);
-  console.log("✅ Wrote data/meta_events.json (lastUpdated)");
+  console.log(`Done. Saved ${events.length} events.`);
 }
 
 main().catch((err) => {
-  console.error("❌ update_events failed:", err.message);
+  console.error(err);
   process.exit(1);
 });
+

@@ -29,10 +29,22 @@ window.App = (() => {
           </div>`;
         }
         return `<div class="item">
-          <div><strong>${x.title}</strong></div>
-          <div class="meta">${x.city || ""}${x.city ? " • " : ""}${x.country} • ${formatDate(x.date)}</div>
-          <div><a href="${x.url}" target="_blank" rel="noopener">Άνοιγμα πηγής</a></div>
-        </div>`;
+         <div><strong>${x.title}</strong></div>
+          <div class="meta">
+          ${
+           (x.venue || x.city || x.country)
+           ? `${x.venue ? x.venue : [x.city, x.country].filter(Boolean).join(", ")} • `
+           : ""
+          }
+         ${
+         x.date_label
+        ? x.date_label
+        : (x.end_date ? `${formatDate(x.date)} – ${formatDate(x.end_date)}` : formatDate(x.date))
+         }
+        </div>
+       <div><a href="${x.link || x.url}" target="_blank" rel="noopener">Άνοιγμα πηγής</a></div>
+      </div>`;
+
       }).join("")
     }</div>`;
   }
@@ -54,16 +66,36 @@ window.App = (() => {
     }
   } catch (e) {}
 
-    const latestOpps = [...opps]
-      .sort((a,b) => (a.deadline || "").localeCompare(b.deadline || ""))
-      .slice(0, 3);
+    const today = new Date().toISOString().slice(0, 10);
 
-    const latestEvents = [...events]
-      .sort((a,b) => (a.date || "").localeCompare(b.date || ""))
-      .slice(0, 3);
+// Χρηματοδότηση: κράτα μόνο όσα έχουν deadline και είναι ενεργά, ταξινόμηση με το πιο κοντινό deadline πρώτο
+let latestOpps = opps
+  .filter(x => x.deadline && x.deadline >= today)
+  .sort((a,b) => (a.deadline || "").localeCompare(b.deadline || ""))
+  .slice(0, 3);
 
-    renderList(document.getElementById("latest-opps"), latestOpps, "opp");
-    renderList(document.getElementById("latest-events"), latestEvents, "event");
+// Events: κράτα μόνο μελλοντικά/σημερινά, ταξινόμηση με το πιο κοντινό event πρώτο
+let latestEvents = events
+  .filter(x => x.date && x.date >= today)
+  .sort((a,b) => (a.date || "").localeCompare(b.date || ""))
+  .slice(0, 3);
+
+// Fallback: αν δεν βρεθεί τίποτα (π.χ. το feed έχει μόνο παλιά), δείξε τα 3 πιο πρόσφατα βάσει ημερομηνίας
+if (latestOpps.length === 0) {
+  latestOpps = [...opps]
+    .filter(x => x.deadline)
+    .sort((a,b) => (b.deadline || "").localeCompare(a.deadline || ""))
+    .slice(0, 3);
+}
+if (latestEvents.length === 0) {
+  latestEvents = [...events]
+    .filter(x => x.date)
+    .sort((a,b) => (b.date || "").localeCompare(a.date || ""))
+    .slice(0, 3);
+}
+
+renderList(document.getElementById("latest-opps"), latestOpps, "opp");
+renderList(document.getElementById("latest-events"), latestEvents, "event");
   }
 
   async function renderFunding() {
@@ -109,8 +141,6 @@ if (onlyActiveEl) {
 }
 
 applyFilter();
-
-  renderList(document.getElementById("funding-list"), sorted, "opp");
 }
 
 async function renderActions() {
@@ -126,7 +156,19 @@ try {
 } catch (e) {
   // meta is optional
 }
-  const sorted = [...events].sort((a,b) => (a.date || "").localeCompare(b.date || ""));
+  const today = new Date().toISOString().slice(0, 10);
+
+// Από προεπιλογή δείχνουμε μόνο μελλοντικά/σημερινά events (quality of life)
+let sorted = events
+  .filter(e => e.date && e.date >= today)
+  .sort((a,b) => (a.date || "").localeCompare(b.date || ""));
+
+// Fallback: αν δεν υπάρχουν μελλοντικά, δείξε όλα ταξινομημένα (νεότερα πρώτα)
+if (sorted.length === 0) {
+  sorted = [...events]
+    .filter(e => e.date)
+    .sort((a,b) => (b.date || "").localeCompare(a.date || ""));
+}
   const listEl = document.getElementById("events-list");
   const searchEl = document.getElementById("events-search");
 
