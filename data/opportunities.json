@@ -1,23 +1,5 @@
 [
   {
-    "title": "Horizon Europe Cluster 5 | Monitoring Offshore Wind Impacts",
-    "program": "LIFE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-10-15",
-    "deadline": "2026-02-17",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-understand-and-minimise-environmental-impacts-offshore-wind-energy"
-  },
-  {
-    "title": "Horizon Europe Call to Accelerate Wave Energy Innovation",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-10-15",
-    "deadline": "2026-02-17",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-cl-5-call-accelerate-wave-energy-innovation"
-  },
-  {
     "title": "Horizon Europe CL 5 | Call to Accelerate Wave Energy Innovation",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -212,7 +194,7 @@
     "beneficiary": "Διάφοροι δικαιούχοι",
     "country": "EU",
     "published": "2025-10-20",
-    "deadline": "2026-02-17",
+    "deadline": "",
     "url": "https://westmed-initiative.ec.europa.eu/understand-and-minimize-the-environmental-impacts-of-offshore-wind-energy-deadline-17-february-2026/"
   },
   {
@@ -241,6 +223,24 @@
     "published": "2025-09-30",
     "deadline": "",
     "url": "https://cinea.ec.europa.eu/news-events/events/step-wise-adopter-workshops-2025-09-10_en"
+  },
+  {
+    "title": "Horizon Europe Cluster 5 | Monitoring Offshore Wind Impacts",
+    "program": "LIFE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2025-10-15",
+    "deadline": "2026-02-17",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-understand-and-minimise-environmental-impacts-offshore-wind-energy"
+  },
+  {
+    "title": "Horizon Europe Call to Accelerate Wave Energy Innovation",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2025-10-15",
+    "deadline": "2026-02-17",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-cl-5-call-accelerate-wave-energy-innovation"
   },
   {
     "title": "Call for expression of interest: Establishment of the EU Blue Economy Observatory Community of Practice (CoP)",

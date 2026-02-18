@@ -1,15 +1,5 @@
 [
   {
-    "title": "Navigating Change: Towards the Energy Transition in the EU Fisheries and Aquaculture",
-    "date": "2026-02-17",
-    "end_date": "",
-    "date_label": "17 Feb 2026",
-    "type": "Conferences and summits",
-    "venue": "Online only",
-    "link": "https://cinea.ec.europa.eu/news-events/events/navigating-change-towards-energy-transition-eu-fisheries-and-aquaculture-2026-02-17_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "European Ocean Days",
     "date": "2026-03-02",
     "end_date": "2026-03-06",
@@ -35,8 +25,18 @@
     "end_date": "2026-03-19",
     "date_label": "17-19 Mar 2026",
     "type": "Conferences and summits",
-    "venue": "",
+    "venue": "European Carbon Farming Summit Padua, Italy",
     "link": "https://cinea.ec.europa.eu/news-events/events/life-2026-european-carbon-farming-summit-2026-03-17_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "European Climate Pact: Together in Action 2026",
+    "date": "2026-03-23",
+    "end_date": "2026-03-25",
+    "date_label": "23-25 Mar 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/european-climate-pact-together-action-2026-2026-03-23_en",
     "source": "CINEA homepage events"
   }
 ]
