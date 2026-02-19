@@ -1,23 +1,5 @@
 [
   {
-    "title": "Horizon Europe CL 5 | Call to Accelerate Wave Energy Innovation",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-02-12",
-    "deadline": "2026-02-18",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-cl-5-call-accelerate-wave-energy-innovation"
-  },
-  {
-    "title": "Horizon EU CL 5 | Understand and minimise the environmental impacts of offshore wind energy",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-02-12",
-    "deadline": "2026-02-18",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-eu-cl-5-understand-and-minimise-environmental-impacts-offshore-wind-energy"
-  },
-  {
     "title": "Joint Call on Blue Carbon Ecosystems | JPI Oceans",
     "program": "EU (F&T Portal)",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -223,6 +205,24 @@
     "published": "2025-09-30",
     "deadline": "",
     "url": "https://cinea.ec.europa.eu/news-events/events/step-wise-adopter-workshops-2025-09-10_en"
+  },
+  {
+    "title": "Horizon Europe CL 5 | Call to Accelerate Wave Energy Innovation",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-02-12",
+    "deadline": "2026-02-18",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-cl-5-call-accelerate-wave-energy-innovation"
+  },
+  {
+    "title": "Horizon EU CL 5 | Understand and minimise the environmental impacts of offshore wind energy",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-02-12",
+    "deadline": "2026-02-18",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-eu-cl-5-understand-and-minimise-environmental-impacts-offshore-wind-energy"
   },
   {
     "title": "Horizon Europe Cluster 5 | Monitoring Offshore Wind Impacts",
