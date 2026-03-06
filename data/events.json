@@ -5,18 +5,8 @@
     "end_date": "2026-03-06",
     "date_label": "02-06 Mar 2026",
     "type": "Conferences and summits",
-    "venue": "Online only",
+    "venue": "European Carbon Farming Summit Padua, Italy",
     "link": "https://cinea.ec.europa.eu/news-events/events/european-ocean-days-2026-03-02_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "LIFE networking meeting: Achieving clean air for European citizens through the Ambient Air Quality Directive",
-    "date": "2026-03-04",
-    "end_date": "2026-03-05",
-    "date_label": "04-05 Mar 2026",
-    "type": "Expert meetings",
-    "venue": "Online only",
-    "link": "https://cinea.ec.europa.eu/news-events/events/life-networking-meeting-achieving-clean-air-european-citizens-through-ambient-air-quality-directive-2026-03-04_en",
     "source": "CINEA homepage events"
   },
   {
@@ -37,6 +27,16 @@
     "type": "Conferences and summits",
     "venue": "",
     "link": "https://cinea.ec.europa.eu/news-events/events/european-climate-pact-together-action-2026-2026-03-23_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "The BRIDGE General Assembly 2026",
+    "date": "2026-03-23",
+    "end_date": "2026-03-24",
+    "date_label": "23-24 Mar 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/bridge-general-assembly-2026-2026-03-23_en",
     "source": "CINEA homepage events"
   }
 ]
