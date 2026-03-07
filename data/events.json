@@ -1,15 +1,5 @@
 [
   {
-    "title": "European Ocean Days",
-    "date": "2026-03-02",
-    "end_date": "2026-03-06",
-    "date_label": "02-06 Mar 2026",
-    "type": "Conferences and summits",
-    "venue": "European Carbon Farming Summit Padua, Italy",
-    "link": "https://cinea.ec.europa.eu/news-events/events/european-ocean-days-2026-03-02_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "LIFE at the 2026 European Carbon Farming Summit",
     "date": "2026-03-17",
     "end_date": "2026-03-19",
@@ -37,6 +27,16 @@
     "type": "Conferences and summits",
     "venue": "",
     "link": "https://cinea.ec.europa.eu/news-events/events/bridge-general-assembly-2026-2026-03-23_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "RENEWFM - Info Day on the 2026 call for proposals",
+    "date": "2026-04-17",
+    "end_date": "",
+    "date_label": "17 Apr 2026",
+    "type": "Info days",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/renewfm-info-day-2026-call-proposals-2026-04-17_en",
     "source": "CINEA homepage events"
   }
 ]
