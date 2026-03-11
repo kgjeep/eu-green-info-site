@@ -1,14 +1,5 @@
 [
   {
-    "title": "EMD In My Country call 2026",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "ΜΚΟ / Φορείς",
-    "country": "EU",
-    "published": "2026-02-12",
-    "deadline": "2026-03-10",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/news/emd-my-country-call-2026-out"
-  },
-  {
     "title": "Call for proposals | Maritime Spatial Planning for the Atlantic and Black Sea",
     "program": "EU (F&T Portal)",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -77,7 +68,7 @@
     "beneficiary": "Διάφοροι δικαιούχοι",
     "country": "EU",
     "published": "2026-02-24",
-    "deadline": "2026-03-10",
+    "deadline": "2026-10-31",
     "url": "https://maritime-forum.ec.europa.eu/theme/governance/european-maritime-day-my-country_en"
   },
   {
@@ -295,6 +286,15 @@
     "published": "2025-09-30",
     "deadline": "",
     "url": "https://cinea.ec.europa.eu/news-events/events/step-wise-adopter-workshops-2025-09-10_en"
+  },
+  {
+    "title": "EMD In My Country call 2026",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "ΜΚΟ / Φορείς",
+    "country": "EU",
+    "published": "2026-02-12",
+    "deadline": "2026-03-10",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/news/emd-my-country-call-2026-out"
   },
   {
     "title": "Joint Call on Blue Carbon Ecosystems | JPI Oceans",
