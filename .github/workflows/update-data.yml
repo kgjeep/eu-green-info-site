@@ -12,8 +12,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+         token: ${{ secrets.GITHUB_TOKEN }}
+         persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v5
