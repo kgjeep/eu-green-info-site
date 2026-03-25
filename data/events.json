@@ -10,16 +10,6 @@
     "source": "CINEA homepage events"
   },
   {
-    "title": "The BRIDGE General Assembly 2026",
-    "date": "2026-03-23",
-    "end_date": "2026-03-24",
-    "date_label": "23-24 Mar 2026",
-    "type": "Conferences and summits",
-    "venue": "Online only",
-    "link": "https://cinea.ec.europa.eu/news-events/events/bridge-general-assembly-2026-2026-03-23_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "LIFE CAP PT II - final event",
     "date": "2026-03-25",
     "end_date": "",
@@ -37,6 +27,16 @@
     "type": "Training and workshops",
     "venue": "Online only",
     "link": "https://cinea.ec.europa.eu/news-events/events/relife-platform-online-workshop-unlocking-data-accessibility-deep-renovation-2026-03-26_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "RENEWFM - Info Day on the 2026 call for proposals",
+    "date": "2026-04-17",
+    "end_date": "",
+    "date_label": "17 Apr 2026",
+    "type": "Info days",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/renewfm-info-day-2026-call-proposals-2026-04-17_en",
     "source": "CINEA homepage events"
   }
 ]
