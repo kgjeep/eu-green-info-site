@@ -1,15 +1,5 @@
 [
   {
-    "title": "ReLIFE Platform online workshop - unlocking data accessibility for deep renovation",
-    "date": "2026-03-26",
-    "end_date": "",
-    "date_label": "26 Mar 2026",
-    "type": "Training and workshops",
-    "venue": "Online only",
-    "link": "https://cinea.ec.europa.eu/news-events/events/relife-platform-online-workshop-unlocking-data-accessibility-deep-renovation-2026-03-26_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "RENEWFM - Info Day on the 2026 call for proposals",
     "date": "2026-04-17",
     "end_date": "",
@@ -35,8 +25,18 @@
     "end_date": "2026-04-23",
     "date_label": "22-23 Apr 2026",
     "type": "Conferences and summits",
-    "venue": "Prague, Czechia See all our events Publications General publications",
+    "venue": "Prague, Czechia",
     "link": "https://cinea.ec.europa.eu/news-events/events/one-nature-project-final-conference-2026-04-22_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "Biodiversity Credits in Practice: First lessons learned from piloting biodiversity credits in European wetlands",
+    "date": "2026-04-22",
+    "end_date": "",
+    "date_label": "22 Apr 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/biodiversity-credits-practice-first-lessons-learned-piloting-biodiversity-credits-european-wetlands-2026-04-22_en",
     "source": "CINEA homepage events"
   }
 ]
