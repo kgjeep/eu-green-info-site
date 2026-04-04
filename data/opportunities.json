@@ -27,7 +27,16 @@
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/european-commission-opens-eu52b-innovation-fund-calls-accelerate-eus-clean-industrial"
   },
   {
-    "title": "Call for proposals | EMFAF | Maritime Spatial Planning projects in the Atlantic & Black Sea | Deadline 15 April",
+    "title": "Call for proposals | Horizon Europe 2026 | Mission Restore Our Ocean and Waters | Deadline 23 September 2026",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-04-03",
+    "deadline": "2026-09-23",
+    "url": "https://projects.research-and-innovation.ec.europa.eu/en/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/eu-missions-horizon-europe/restore-our-ocean-and-waters/horizon-europe-work-programme-discover-2026-topics-mission-restore-our-ocean-and-waters"
+  },
+  {
+    "title": "Call for proposals | EMFAF | Maritime Spatial Planning projects in the Atlantic & Black Sea | Deadline 15 April 2026",
     "program": "EU (F&T Portal)",
     "beneficiary": "Διάφοροι δικαιούχοι",
     "country": "EU",
@@ -117,15 +126,6 @@
     "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/call-proposals-support-maritime-spatial-planning-atlantic-and-black-sea_en"
   },
   {
-    "title": "Innovation Fund 2025 Net-Zero Technologies call",
-    "program": "INNOVATION FUND",
-    "beneficiary": "SMEs",
-    "country": "EU",
-    "published": "2026-02-23",
-    "deadline": "2026-04-23",
-    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-net-zero-technologies-call_en"
-  },
-  {
     "title": "Green Assist launches new call for projects seeking to strengthen their green investments",
     "program": "EU (F&T Portal)",
     "beneficiary": "SMEs",
@@ -133,6 +133,15 @@
     "published": "2026-02-23",
     "deadline": "2026-05-18",
     "url": "https://cinea.ec.europa.eu/news-events/news/green-assist-launches-new-call-projects-seeking-strengthen-their-green-investments-2026-02-19_en"
+  },
+  {
+    "title": "Innovation Fund 2025 Net-Zero Technologies call",
+    "program": "INNOVATION FUND",
+    "beneficiary": "SMEs",
+    "country": "EU",
+    "published": "2026-02-23",
+    "deadline": "2026-04-23",
+    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-net-zero-technologies-call_en"
   },
   {
     "title": "Horizon Europe: new calls open to fund clean energy, mobility and climate research",
@@ -324,15 +333,6 @@
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/joint-call-blue-carbon-ecosystems-jpi-oceans"
   },
   {
-    "title": "Horizon EU CL 5 | Understand and minimise the environmental impacts of offshore wind energy",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-02-12",
-    "deadline": "2026-02-18",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-eu-cl-5-understand-and-minimise-environmental-impacts-offshore-wind-energy"
-  },
-  {
     "title": "Horizon Europe CL 5 | Call to Accelerate Wave Energy Innovation",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -340,6 +340,15 @@
     "published": "2026-02-12",
     "deadline": "2026-02-18",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-cl-5-call-accelerate-wave-energy-innovation"
+  },
+  {
+    "title": "Horizon EU CL 5 | Understand and minimise the environmental impacts of offshore wind energy",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-02-12",
+    "deadline": "2026-02-18",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-eu-cl-5-understand-and-minimise-environmental-impacts-offshore-wind-energy"
   },
   {
     "title": "Horizon Europe Cluster 5 | Monitoring Offshore Wind Impacts",
