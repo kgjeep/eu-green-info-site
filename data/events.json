@@ -1,32 +1,12 @@
 [
   {
-    "title": "LIFE Platform Meeting on Climate Strategic Integrated Projects",
+    "title": "InterLIFE Meeting for Central and Eastern Europe countries",
     "date": "2026-04-20",
     "end_date": "2026-04-24",
     "date_label": "20-24 Apr 2026",
     "type": "Conferences and summits",
-    "venue": "",
-    "link": "https://cinea.ec.europa.eu/news-events/events/life-platform-meeting-climate-strategic-integrated-projects-2026-04-21_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "LIFE Platform Meeting on Climate Strategic Integrated Projects",
-    "date": "2026-04-21",
-    "end_date": "2026-04-23",
-    "date_label": "21-23 Apr 2026",
-    "type": "Expert meetings",
-    "venue": "",
-    "link": "https://cinea.ec.europa.eu/news-events/events/life-platform-meeting-climate-strategic-integrated-projects-2026-04-21_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "One Nature project: final conference",
-    "date": "2026-04-22",
-    "end_date": "2026-04-23",
-    "date_label": "22-23 Apr 2026",
-    "type": "Conferences and summits",
-    "venue": "Prague, Czechia",
-    "link": "https://cinea.ec.europa.eu/news-events/events/one-nature-project-final-conference-2026-04-22_en",
+    "venue": "Online only",
+    "link": "https://cinea.ec.europa.eu/news-events/events/interlife-meeting-central-and-eastern-europe-countries-2026-04-22_en",
     "source": "CINEA homepage events"
   },
   {
@@ -35,8 +15,18 @@
     "end_date": "2026-04-24",
     "date_label": "22-24 Apr 2026",
     "type": "Expert meetings",
-    "venue": "",
+    "venue": "Online only",
     "link": "https://cinea.ec.europa.eu/news-events/events/interlife-meeting-central-and-eastern-europe-countries-2026-04-22_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "EU LIFE 2026 info days",
+    "date": "2026-04-28",
+    "end_date": "2026-04-30",
+    "date_label": "28-30 Apr 2026",
+    "type": "Info days",
+    "venue": "Online only",
+    "link": "https://cinea.ec.europa.eu/news-events/events/eu-life-2026-info-days-2026-04-28_en",
     "source": "CINEA homepage events"
   }
 ]
