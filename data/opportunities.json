@@ -45,6 +45,15 @@
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-2026-calls-mission-restore-our-ocean-and-waters"
   },
   {
+    "title": "European Invasive Alien Species Rapid-Response Fund | Deadline 10 February 2027",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-05-20",
+    "deadline": "2027-02-10",
+    "url": "https://iucnsos.org/initiative/european-invasive-alien-species-rapid-response-fund/"
+  },
+  {
     "title": "LIFE Calls for Proposals 2026",
     "program": "LIFE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -185,7 +194,7 @@
     "beneficiary": "Διάφοροι δικαιούχοι",
     "country": "EU",
     "published": "2026-01-26",
-    "deadline": "2026-05-19",
+    "deadline": "",
     "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals_en?f%5B0%5D=eu_programmes_programme%3Ahttp%3A//publications.europa.eu/resource/authority/eu-programme/IF&f%5B1%5D=oe_call_proposals_status%3Aupcoming"
   },
   {
@@ -216,15 +225,6 @@
     "url": "https://sustainable-energy-week.ec.europa.eu/policy-conference_en"
   },
   {
-    "title": "Innovation Fund 2025 Heat Auction",
-    "program": "INNOVATION FUND",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-12-12",
-    "deadline": "",
-    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-heat-auction_en"
-  },
-  {
     "title": "Innovation Fund 2025 Hydrogen Auction",
     "program": "INNOVATION FUND",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -232,6 +232,15 @@
     "published": "2025-12-12",
     "deadline": "",
     "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-hydrogen-auction_en"
+  },
+  {
+    "title": "Innovation Fund 2025 Heat Auction",
+    "program": "INNOVATION FUND",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2025-12-12",
+    "deadline": "",
+    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-heat-auction_en"
   },
   {
     "title": "Innovation Fund Net-Zero Technologies Call",
@@ -405,15 +414,6 @@
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-eu-cl-5-understand-and-minimise-environmental-impacts-offshore-wind-energy"
   },
   {
-    "title": "Horizon Europe Cluster 5 | Monitoring Offshore Wind Impacts",
-    "program": "LIFE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-10-15",
-    "deadline": "2026-02-17",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-understand-and-minimise-environmental-impacts-offshore-wind-energy"
-  },
-  {
     "title": "Horizon Europe Call to Accelerate Wave Energy Innovation",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -421,6 +421,15 @@
     "published": "2025-10-15",
     "deadline": "2026-02-17",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-cl-5-call-accelerate-wave-energy-innovation"
+  },
+  {
+    "title": "Horizon Europe Cluster 5 | Monitoring Offshore Wind Impacts",
+    "program": "LIFE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2025-10-15",
+    "deadline": "2026-02-17",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-understand-and-minimise-environmental-impacts-offshore-wind-energy"
   },
   {
     "title": "Call for expression of interest: Establishment of the EU Blue Economy Observatory Community of Practice (CoP)",
