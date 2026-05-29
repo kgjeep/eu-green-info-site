@@ -5,8 +5,18 @@
     "end_date": "2026-06-05",
     "date_label": "01-05 Jun 2026",
     "type": "Conferences and summits",
-    "venue": "Sofia, Bulgaria See all our events Publications Study",
+    "venue": "Sofia, Bulgaria",
     "link": "https://cinea.ec.europa.eu/news-events/events/life-green-transition-forum-60-2026-06-01_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "European Maritime Spatial Planning Week",
+    "date": "2026-06-01",
+    "end_date": "2026-06-05",
+    "date_label": "01-05 Jun 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/european-maritime-spatial-planning-week-2026-06-01_en",
     "source": "CINEA homepage events"
   }
 ]
