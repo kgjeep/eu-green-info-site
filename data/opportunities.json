@@ -1,14 +1,5 @@
 [
   {
-    "title": "From Research to Business (R2B) Programme | Deadline 1 June 2026",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-05-20",
-    "deadline": "2026-06-01",
-    "url": "https://berytech.org/programs/ufm-research-to-business/"
-  },
-  {
     "title": "Tackle pollution from source to sea: Horizon Europe call for nature-positive solutions",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -203,7 +194,7 @@
     "beneficiary": "Διάφοροι δικαιούχοι",
     "country": "EU",
     "published": "2026-01-26",
-    "deadline": "2026-08-20",
+    "deadline": "",
     "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals_en?f%5B0%5D=eu_programmes_programme%3Ahttp%3A//publications.europa.eu/resource/authority/eu-programme/IF&f%5B1%5D=oe_call_proposals_status%3Aupcoming"
   },
   {
@@ -358,6 +349,15 @@
     "published": "2025-09-30",
     "deadline": "",
     "url": "https://cinea.ec.europa.eu/news-events/events/step-wise-adopter-workshops-2025-09-10_en"
+  },
+  {
+    "title": "From Research to Business (R2B) Programme | Deadline 1 June 2026",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-05-20",
+    "deadline": "2026-06-01",
+    "url": "https://berytech.org/programs/ufm-research-to-business/"
   },
   {
     "title": "BlueActionAA – Transition Agenda Call 1 | Funding Opportunity for Transition Agendas Across the Atlantic & Arctic Basins",
