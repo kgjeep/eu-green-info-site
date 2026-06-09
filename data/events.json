@@ -1,25 +1,5 @@
 [
   {
-    "title": "LIFE TOUR4CLIMA webinar - Effective climate governance in tourism: key criteria and best practices",
-    "date": "2026-06-08",
-    "end_date": "",
-    "date_label": "08 Jun 2026",
-    "type": "Training and workshops",
-    "venue": "Brussels, Belgium",
-    "link": "https://cinea.ec.europa.eu/news-events/events/life-tour4clima-webinar-effective-climate-governance-tourism-key-criteria-and-best-practices-2026-06-08_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "Energy Communities, their potential and how to boost citizen engagement",
-    "date": "2026-06-08",
-    "end_date": "",
-    "date_label": "08 Jun 2026",
-    "type": "Conferences and summits",
-    "venue": "Brussels, Belgium",
-    "link": "https://cinea.ec.europa.eu/news-events/events/energy-communities-their-potential-and-how-boost-citizen-engagement-2026-06-08_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "LIFE Platform Meeting: Meeting the challenges of the Nature Restoration Regulation in the marine environment",
     "date": "2026-06-09",
     "end_date": "2026-06-11",
@@ -35,8 +15,28 @@
     "end_date": "2026-06-11",
     "date_label": "09-11 Jun 2026",
     "type": "Conferences and summits",
-    "venue": "",
+    "venue": "Brussels, Belgium Live streaming available",
     "link": "https://cinea.ec.europa.eu/news-events/events/eusew-2026-2026-06-09_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "European Sustainable Energy Awards 2026",
+    "date": "2026-06-09",
+    "end_date": "",
+    "date_label": "09 Jun 2026",
+    "type": "",
+    "venue": "Brussels, Belgium Live streaming available",
+    "link": "https://cinea.ec.europa.eu/news-events/events/european-sustainable-energy-awards-2026-2026-06-09_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "NEB Festival 2026",
+    "date": "2026-06-09",
+    "end_date": "2026-06-13",
+    "date_label": "09-13 Jun 2026",
+    "type": "",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/neb-festival-2026-2026-06-09_en",
     "source": "CINEA homepage events"
   }
 ]
