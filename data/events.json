@@ -1,25 +1,5 @@
 [
   {
-    "title": "LIFE Platform Meeting: Meeting the challenges of the Nature Restoration Regulation in the marine environment",
-    "date": "2026-06-09",
-    "end_date": "2026-06-11",
-    "date_label": "09-11 Jun 2026",
-    "type": "Expert meetings",
-    "venue": "",
-    "link": "https://cinea.ec.europa.eu/news-events/events/life-platform-meeting-meeting-challenges-nature-restoration-regulation-marine-environment-2026-06-09_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "EUSEW 2026",
-    "date": "2026-06-09",
-    "end_date": "2026-06-11",
-    "date_label": "09-11 Jun 2026",
-    "type": "Conferences and summits",
-    "venue": "Brussels, Belgium Live streaming available",
-    "link": "https://cinea.ec.europa.eu/news-events/events/eusew-2026-2026-06-09_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "NEB Festival 2026",
     "date": "2026-06-09",
     "end_date": "2026-06-13",
@@ -30,13 +10,33 @@
     "source": "CINEA homepage events"
   },
   {
-    "title": "LIFE in the Ravines - restoring ravine woodlands of the peak district",
+    "title": "CINEA at ILA Berlin International Airshow 2026",
     "date": "2026-06-10",
-    "end_date": "2026-06-11",
-    "date_label": "10-11 Jun 2026",
+    "end_date": "2026-06-14",
+    "date_label": "10-14 Jun 2026",
     "type": "Conferences and summits",
     "venue": "",
-    "link": "https://cinea.ec.europa.eu/news-events/events/life-ravines-restoring-ravine-woodlands-peak-district-2026-06-10_en",
+    "link": "https://cinea.ec.europa.eu/news-events/events/cinea-ila-berlin-international-airshow-2026-2026-06-10_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "LIFE at European Urban Resilience Forum",
+    "date": "2026-06-17",
+    "end_date": "2026-06-19",
+    "date_label": "17-19 Jun 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-european-urban-resilience-forum-2026-06-17_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "LIFE CityTRAQ - final conference",
+    "date": "2026-06-18",
+    "end_date": "",
+    "date_label": "18 Jun 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-citytraq-final-conference-2026-06-18_en",
     "source": "CINEA homepage events"
   }
 ]
