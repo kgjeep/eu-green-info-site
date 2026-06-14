@@ -1,15 +1,5 @@
 [
   {
-    "title": "NEB Festival 2026",
-    "date": "2026-06-09",
-    "end_date": "2026-06-13",
-    "date_label": "09-13 Jun 2026",
-    "type": "Conferences and summits",
-    "venue": "",
-    "link": "https://cinea.ec.europa.eu/news-events/events/neb-festival-2026-2026-06-09_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "CINEA at ILA Berlin International Airshow 2026",
     "date": "2026-06-10",
     "end_date": "2026-06-14",
@@ -35,8 +25,18 @@
     "end_date": "",
     "date_label": "18 Jun 2026",
     "type": "Conferences and summits",
-    "venue": "",
+    "venue": "Conferences and summits LIFE CityTRAQ - final conference Brussels, Belgium",
     "link": "https://cinea.ec.europa.eu/news-events/events/life-citytraq-final-conference-2026-06-18_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "Innovation Fund: Stakeholder Consultation Event on the IF26 Calls for Proposals",
+    "date": "2026-06-19",
+    "end_date": "",
+    "date_label": "19 Jun 2026",
+    "type": "",
+    "venue": "",
+    "link": "https://climate.ec.europa.eu/citizens-stakeholders/events/innovation-fund-stakeholder-consultation-event-if26-calls-proposals-2026-06-19_en",
     "source": "CINEA homepage events"
   }
 ]
