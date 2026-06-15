@@ -1,15 +1,5 @@
 [
   {
-    "title": "CINEA at ILA Berlin International Airshow 2026",
-    "date": "2026-06-10",
-    "end_date": "2026-06-14",
-    "date_label": "10-14 Jun 2026",
-    "type": "Conferences and summits",
-    "venue": "",
-    "link": "https://cinea.ec.europa.eu/news-events/events/cinea-ila-berlin-international-airshow-2026-2026-06-10_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "LIFE at European Urban Resilience Forum",
     "date": "2026-06-17",
     "end_date": "2026-06-19",
@@ -30,13 +20,13 @@
     "source": "CINEA homepage events"
   },
   {
-    "title": "Innovation Fund: Stakeholder Consultation Event on the IF26 Calls for Proposals",
+    "title": "LIFE for Entomology: promoting insect conservation at ECE 2026",
     "date": "2026-06-19",
     "end_date": "",
     "date_label": "19 Jun 2026",
-    "type": "",
-    "venue": "",
-    "link": "https://climate.ec.europa.eu/citizens-stakeholders/events/innovation-fund-stakeholder-consultation-event-if26-calls-proposals-2026-06-19_en",
+    "type": "Conferences and summits",
+    "venue": "Tours, France See all our events Publications",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-entomology-promoting-insect-conservation-ece-2026-2026-06-29_en",
     "source": "CINEA homepage events"
   }
 ]
