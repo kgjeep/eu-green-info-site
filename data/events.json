@@ -1,25 +1,5 @@
 [
   {
-    "title": "LIFE at European Urban Resilience Forum",
-    "date": "2026-06-17",
-    "end_date": "2026-06-19",
-    "date_label": "17-19 Jun 2026",
-    "type": "Conferences and summits",
-    "venue": "Online only",
-    "link": "https://cinea.ec.europa.eu/news-events/events/life-european-urban-resilience-forum-2026-06-17_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "Info Day on the 2026 CEF Transport calls",
-    "date": "2026-06-19",
-    "end_date": "",
-    "date_label": "19 Jun 2026",
-    "type": "Info days",
-    "venue": "Online only",
-    "link": "https://cinea.ec.europa.eu/news-events/events/info-day-2026-cef-transport-calls-2026-06-24_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "Info Day on the 2026 CEF Transport calls",
     "date": "2026-06-24",
     "end_date": "",
@@ -27,6 +7,26 @@
     "type": "Info days",
     "venue": "Online only",
     "link": "https://cinea.ec.europa.eu/news-events/events/info-day-2026-cef-transport-calls-2026-06-24_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "CEF Energy: Virtual Info Day on the 6th Call for status for Cross-Border Renewable Energy Projects",
+    "date": "2026-06-29",
+    "end_date": "",
+    "date_label": "29 Jun 2026",
+    "type": "Info days",
+    "venue": "Rennes, France See all our events Publications",
+    "link": "https://cinea.ec.europa.eu/news-events/events/cef-energy-virtual-info-day-6th-call-status-cross-border-renewable-energy-projects-2026-06-29_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "LIFE at Adaptation & Nature Forum 2026",
+    "date": "2026-07-07",
+    "end_date": "2026-07-08",
+    "date_label": "07-08 Jul 2026",
+    "type": "Conferences and summits",
+    "venue": "Rennes, France See all our events Publications Study",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-adaptation-nature-forum-2026-2026-07-07_en",
     "source": "CINEA homepage events"
   }
 ]
