@@ -1,15 +1,5 @@
 [
   {
-    "title": "CEF Energy: Virtual Info Day on the 6th Call for status for Cross-Border Renewable Energy Projects",
-    "date": "2026-06-29",
-    "end_date": "",
-    "date_label": "29 Jun 2026",
-    "type": "Info days",
-    "venue": "Rennes, France",
-    "link": "https://cinea.ec.europa.eu/news-events/events/cef-energy-virtual-info-day-6th-call-status-cross-border-renewable-energy-projects-2026-06-29_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "LIFE at Adaptation & Nature Forum 2026",
     "date": "2026-07-07",
     "end_date": "2026-07-08",
@@ -25,8 +15,18 @@
     "end_date": "2026-08-28",
     "date_label": "24-28 Aug 2026",
     "type": "Conferences and summits",
-    "venue": "",
+    "venue": "European Conference on Ecological Restoration Brest, France",
     "link": "https://cinea.ec.europa.eu/news-events/events/life-sere2026-european-conference-ecological-restoration-2026-08-24_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "LIFE RIPARIAS final conference",
+    "date": "2026-09-08",
+    "end_date": "2026-09-09",
+    "date_label": "08-09 Sep 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-riparias-final-conference-2026-09-08_en",
     "source": "CINEA homepage events"
   }
 ]
