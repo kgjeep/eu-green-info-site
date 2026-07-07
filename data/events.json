@@ -25,8 +25,18 @@
     "end_date": "2026-09-09",
     "date_label": "08-09 Sep 2026",
     "type": "Conferences and summits",
-    "venue": "",
+    "venue": "Conferences and summits LIFE RIPARIAS final conference Brussels, Belgium",
     "link": "https://cinea.ec.europa.eu/news-events/events/life-riparias-final-conference-2026-09-08_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "Rivers of LIFE final seminar",
+    "date": "2026-09-15",
+    "end_date": "2026-09-17",
+    "date_label": "15-17 Sep 2026",
+    "type": "Expert meetings",
+    "venue": "European Climate, Infrastructure and Environment Executive Agency LIFE",
+    "link": "https://cinea.ec.europa.eu/news-events/events/rivers-life-final-seminar-2026-09-15_en",
     "source": "CINEA homepage events"
   }
 ]
