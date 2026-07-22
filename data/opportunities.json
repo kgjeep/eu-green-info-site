@@ -1,5 +1,41 @@
 [
   {
+    "title": "Call for tenders | Mission Ocean, Seas and Waters implementation support platform - 2nd phase",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-09-02",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-tenders-mission-ocean-seas-and-waters-implementation-support-platform-2nd-phase"
+  },
+  {
+    "title": "LIFE Clean Energy Transition (CET) | €85.5M to accelerate local energy action",
+    "program": "LIFE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-09-22",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/life-clean-energy-transition-cet-eu855m-accelerate-local-energy-action"
+  },
+  {
+    "title": "Horizon Europe | Towards a European network of ocean technology testing sites",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "SMEs",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-09-23",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-call-towards-european-network-ocean-technology-testing-sites"
+  },
+  {
+    "title": "Call for Supporting Fisheries Co-management “By Fishers, for Fishers”",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-09-23",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-supporting-fisheries-co-management-fishers-fishers"
+  },
+  {
     "title": "Tackle pollution from source to sea: Horizon Europe call for nature-positive solutions",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -16,6 +52,15 @@
     "published": "2026-04-27",
     "deadline": "2026-09-23",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-2026-calls-mission-restore-our-ocean-and-waters"
+  },
+  {
+    "title": "CEF Call | European Maritime Space and Inland Ports: Supporting Greener Maritime Transport",
+    "program": "CEF",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-10-06",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/cef-call-european-maritime-space-and-inland-ports-supporting-greener-maritime"
   },
   {
     "title": "Call for Evidence | European Ocean Research and Innovation Strategy | Deadline 2 August 2026",
@@ -59,7 +104,7 @@
     "beneficiary": "Διάφοροι δικαιούχοι",
     "country": "EU",
     "published": "2026-05-20",
-    "deadline": "2027-02-10",
+    "deadline": "",
     "url": "https://iucnsos.org/initiative/european-invasive-alien-species-rapid-response-fund/"
   },
   {
@@ -225,6 +270,24 @@
     "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-tenders/call-tenders-emodnet-data-ingestion-service_en"
   },
   {
+    "title": "Innovation Fund 2025 Heat Auction",
+    "program": "INNOVATION FUND",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2025-12-12",
+    "deadline": "",
+    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-heat-auction_en"
+  },
+  {
+    "title": "EUSEW 2026 Policy Sessions",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2025-12-12",
+    "deadline": "",
+    "url": "https://sustainable-energy-week.ec.europa.eu/policy-conference_en"
+  },
+  {
     "title": "Innovation Fund 2025 Hydrogen Auction",
     "program": "INNOVATION FUND",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -243,33 +306,6 @@
     "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-net-zero-technologies-call_en"
   },
   {
-    "title": "EUSEW 2026 Policy Sessions",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-12-12",
-    "deadline": "",
-    "url": "https://sustainable-energy-week.ec.europa.eu/policy-conference_en"
-  },
-  {
-    "title": "Innovation Fund 2025 Heat Auction",
-    "program": "INNOVATION FUND",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-12-12",
-    "deadline": "",
-    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-heat-auction_en"
-  },
-  {
-    "title": "EUSEW 2026 Policy Sessions",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-11-24",
-    "deadline": "",
-    "url": "https://sustainable-energy-week.ec.europa.eu/policy-conference_en"
-  },
-  {
     "title": "EUSEW Awards",
     "program": "EU (F&T Portal)",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -277,6 +313,15 @@
     "published": "2025-11-24",
     "deadline": "",
     "url": "https://sustainable-energy-week.ec.europa.eu/awards_en"
+  },
+  {
+    "title": "EUSEW 2026 Policy Sessions",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2025-11-24",
+    "deadline": "",
+    "url": "https://sustainable-energy-week.ec.europa.eu/policy-conference_en"
   },
   {
     "title": "CEF Energy",
@@ -466,15 +511,6 @@
     "published": "2025-10-15",
     "deadline": "2026-02-17",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-cl-5-call-accelerate-wave-energy-innovation"
-  },
-  {
-    "title": "Horizon Europe Cluster 5 | Monitoring Offshore Wind Impacts",
-    "program": "LIFE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-10-15",
-    "deadline": "2026-02-17",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-understand-and-minimise-environmental-impacts-offshore-wind-energy"
   },
   {
     "title": "Call for expression of interest: Establishment of the EU Blue Economy Observatory Community of Practice (CoP)",
