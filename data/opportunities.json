@@ -18,15 +18,6 @@
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/life-clean-energy-transition-cet-eu855m-accelerate-local-energy-action"
   },
   {
-    "title": "Horizon Europe | Towards a European network of ocean technology testing sites",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "SMEs",
-    "country": "EU",
-    "published": "2026-07-21",
-    "deadline": "2026-09-23",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-call-towards-european-network-ocean-technology-testing-sites"
-  },
-  {
     "title": "Call for Supporting Fisheries Co-management “By Fishers, for Fishers”",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -34,6 +25,15 @@
     "published": "2026-07-21",
     "deadline": "2026-09-23",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-supporting-fisheries-co-management-fishers-fishers"
+  },
+  {
+    "title": "Horizon Europe | Towards a European network of ocean technology testing sites",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "SMEs",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-09-23",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-call-towards-european-network-ocean-technology-testing-sites"
   },
   {
     "title": "Tackle pollution from source to sea: Horizon Europe call for nature-positive solutions",
@@ -61,6 +61,24 @@
     "published": "2026-07-21",
     "deadline": "2026-10-06",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/cef-call-european-maritime-space-and-inland-ports-supporting-greener-maritime"
+  },
+  {
+    "title": "Addressing aquatic pollution and biodiversity loss through nature positive solutions from source to seas | Deadline 23 September 2026",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-23",
+    "deadline": "",
+    "url": "https://ec.europa.eu/newsroom/cinea/redirection/item/938681/en/2176"
+  },
+  {
+    "title": "Towards a European network of ocean technology testing sites | Deadline 23 September 2026",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-23",
+    "deadline": "2026-09-23",
+    "url": "https://projects.research-and-innovation.ec.europa.eu/en/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/eu-missions-horizon-europe/restore-our-ocean-and-waters/horizon-miss-2026-03-ocean-04-towards-european-network-ocean-technology-testing-sites"
   },
   {
     "title": "Call for Evidence | European Ocean Research and Innovation Strategy | Deadline 2 August 2026",
@@ -104,7 +122,7 @@
     "beneficiary": "Διάφοροι δικαιούχοι",
     "country": "EU",
     "published": "2026-05-20",
-    "deadline": "",
+    "deadline": "2027-02-10",
     "url": "https://iucnsos.org/initiative/european-invasive-alien-species-rapid-response-fund/"
   },
   {
@@ -502,24 +520,6 @@
     "published": "2026-02-12",
     "deadline": "2026-02-18",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-eu-cl-5-understand-and-minimise-environmental-impacts-offshore-wind-energy"
-  },
-  {
-    "title": "Horizon Europe Call to Accelerate Wave Energy Innovation",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-10-15",
-    "deadline": "2026-02-17",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-cl-5-call-accelerate-wave-energy-innovation"
-  },
-  {
-    "title": "Call for expression of interest: Establishment of the EU Blue Economy Observatory Community of Practice (CoP)",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "ΜΚΟ / Φορείς",
-    "country": "EU",
-    "published": "2025-10-15",
-    "deadline": "2025-10-30",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-expression-interest-establishment-eu-blue-economy-observatory-community-practice"
   },
   {
     "title": "Eco-Innovation Challenge: Open Call for innovative solutions to tackle pollution in the Black Sea region.",
