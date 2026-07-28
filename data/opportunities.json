@@ -36,15 +36,6 @@
     "url": "https://westmed-initiative.ec.europa.eu/large-scale-demonstration-for-mapping-the-distribution-and-condition-of-marine-habitats-to-implement-the-nature-restoration-regulation-deadline-23-september-2026/"
   },
   {
-    "title": "Call for Supporting Fisheries Co-management “By Fishers, for Fishers”",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-07-21",
-    "deadline": "2026-09-23",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-supporting-fisheries-co-management-fishers-fishers"
-  },
-  {
     "title": "Horizon Europe | Towards a European network of ocean technology testing sites",
     "program": "HORIZON EUROPE",
     "beneficiary": "SMEs",
@@ -52,6 +43,15 @@
     "published": "2026-07-21",
     "deadline": "2026-09-23",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-call-towards-european-network-ocean-technology-testing-sites"
+  },
+  {
+    "title": "Call for Supporting Fisheries Co-management “By Fishers, for Fishers”",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-09-23",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-supporting-fisheries-co-management-fishers-fishers"
   },
   {
     "title": "Tackle pollution from source to sea: Horizon Europe call for nature-positive solutions",
@@ -105,7 +105,43 @@
     "country": "EU",
     "published": "2026-07-27",
     "deadline": "2026-10-29",
-    "url": "https://ec.europa.eu/newsroom/cinea/redirection/item/950133/en"
+    "url": "https://www.interregnextmed.eu/apply-for-funding/third-call-for-proposals/"
+  },
+  {
+    "title": "New call supporting the development of regional Digital Twin Ocean components across European sea basins",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "2026-09-23",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/773"
+  },
+  {
+    "title": "Call for proposals to support fisheries co management in European sea basins",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "2026-09-23",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/772"
+  },
+  {
+    "title": "Call for proposals to support ecosystem based solutions to aquatic pollution",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "2026-09-23",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/771"
+  },
+  {
+    "title": "Horizon Europe opens new call for Marine Habitat Mapping projects",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "2026-09-23",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/770"
   },
   {
     "title": "Addressing aquatic pollution and biodiversity loss through nature positive solutions from source to seas | Deadline 23 September 2026",
@@ -257,7 +293,7 @@
     "beneficiary": "Διάφοροι δικαιούχοι",
     "country": "EU",
     "published": "2026-02-24",
-    "deadline": "2026-09-23",
+    "deadline": "",
     "url": "https://cinea.ec.europa.eu/news-events/news/horizon-europe-eu-missions-eu10-million-available-new-climate-and-soil-projects-2026-02-05_en"
   },
   {
@@ -385,42 +421,6 @@
     "published": "2025-11-24",
     "deadline": "",
     "url": "https://sustainable-energy-week.ec.europa.eu/awards_en"
-  },
-  {
-    "title": "CEF Energy",
-    "program": "CEF",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-11-21",
-    "deadline": "",
-    "url": "https://cinea.ec.europa.eu/news-events/news/cef-energy-eu150-million-works-studies-cross-border-renewable-energy-projects-2025-11-04_en"
-  },
-  {
-    "title": "JTM-PSLF",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-11-21",
-    "deadline": "",
-    "url": "https://cinea.ec.europa.eu/news-events/news/second-call-proposals-under-public-sector-loan-facility-now-open-2025-10-23_en"
-  },
-  {
-    "title": "Call for Micro-Initiatives  to reduce plastic pollution in the Mediterranean Sea | Deadline 5 January 2025",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-10-21",
-    "deadline": "",
-    "url": "https://www.beyondplasticmed.org/en/call-for-projects/"
-  },
-  {
-    "title": "Third Transnational Call launched to boost the EU’s Sustainable blue economy",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-10-17",
-    "deadline": "",
-    "url": "https://bluepartnership.eu/funding-opportunity/sustainable-blue-economy-partnerships-third-joint-transnational-call"
   },
   {
     "title": "Test 2",
