@@ -108,6 +108,33 @@
     "url": "https://www.interregnextmed.eu/apply-for-funding/third-call-for-proposals/"
   },
   {
+    "title": "SBEP: Upcoming Regional Portfolio Calls for Interest",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-08-03",
+    "deadline": "2026-09-09",
+    "url": "https://ec.europa.eu/newsroom/cinea/redirection/item/950954/en"
+  },
+  {
+    "title": "SBEP: Rolling Transnational Access to Marine and Maritime Research Infrastructures",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-08-03",
+    "deadline": "2026-10-20",
+    "url": "https://ec.europa.eu/newsroom/cinea/redirection/item/950953/en"
+  },
+  {
+    "title": "Horizon Europe opens new call for Marine Habitat Mapping projects",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "2026-09-23",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/770"
+  },
+  {
     "title": "Call for proposals to support ecosystem based solutions to aquatic pollution",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -133,15 +160,6 @@
     "published": "2026-07-27",
     "deadline": "2026-09-23",
     "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/772"
-  },
-  {
-    "title": "Horizon Europe opens new call for Marine Habitat Mapping projects",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-07-27",
-    "deadline": "2026-09-23",
-    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/770"
   },
   {
     "title": "Addressing aquatic pollution and biodiversity loss through nature positive solutions from source to seas | Deadline 23 September 2026",
@@ -284,7 +302,7 @@
     "beneficiary": "Διάφοροι δικαιούχοι",
     "country": "EU",
     "published": "2026-02-24",
-    "deadline": "2026-10-31",
+    "deadline": "",
     "url": "https://maritime-forum.ec.europa.eu/theme/governance/european-maritime-day-my-country_en"
   },
   {
@@ -450,15 +468,6 @@
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/blueactionaa-transition-agenda-call-1-funding-opportunity-transition-agendas-across"
   },
   {
-    "title": "BlueActionAA | Community-Led Action Call to Restore Ocean & Freshwater Ecosystems",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-04-27",
-    "deadline": "2026-05-29",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/blueactionaa-community-led-action-call-restore-ocean-freshwater-ecosystems"
-  },
-  {
     "title": "EMFAF Call for Tenders | Study on Blue Carbon Certification - developing certification rules for tidal marshes and seagrass meadows",
     "program": "EU (F&T Portal)",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -529,14 +538,5 @@
     "published": "2026-02-12",
     "deadline": "2026-02-18",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-eu-cl-5-understand-and-minimise-environmental-impacts-offshore-wind-energy"
-  },
-  {
-    "title": "Eco-Innovation Challenge: Open Call for innovative solutions to tackle pollution in the Black Sea region.",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "ΜΚΟ / Φορείς",
-    "country": "EU",
-    "published": "2025-10-17",
-    "deadline": "2025-10-09",
-    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/733"
   }
 ]
