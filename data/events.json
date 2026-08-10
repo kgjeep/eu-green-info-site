@@ -20,23 +20,23 @@
     "source": "CINEA homepage events"
   },
   {
-    "title": "Rivers of LIFE final seminar",
-    "date": "2026-09-15",
-    "end_date": "2026-09-17",
-    "date_label": "15-17 Sep 2026",
-    "type": "Expert meetings",
-    "venue": "Thessaloniki, Greece See all our events Publications",
-    "link": "https://cinea.ec.europa.eu/news-events/events/rivers-life-final-seminar-2026-09-15_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "CIVITAS Forum 2026",
     "date": "2026-09-15",
     "end_date": "2026-09-17",
     "date_label": "15-17 Sep 2026",
     "type": "Conferences and summits",
-    "venue": "Thessaloniki, Greece See all our events Publications Report",
+    "venue": "Thessaloniki, Greece",
     "link": "https://cinea.ec.europa.eu/news-events/events/civitas-forum-2026-2026-09-15_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "Rivers of LIFE final seminar",
+    "date": "2026-09-15",
+    "end_date": "2026-09-17",
+    "date_label": "15-17 Sep 2026",
+    "type": "Expert meetings",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/rivers-life-final-seminar-2026-09-15_en",
     "source": "CINEA homepage events"
   }
 ]
