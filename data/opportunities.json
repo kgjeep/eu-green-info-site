@@ -27,15 +27,6 @@
     "url": "https://westmed-initiative.ec.europa.eu/large-scale-demonstration-for-mapping-the-distribution-and-condition-of-marine-habitats-to-implement-the-nature-restoration-regulation-deadline-23-september-2026/"
   },
   {
-    "title": "Horizon Europe | Towards a European network of ocean technology testing sites",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "SMEs",
-    "country": "EU",
-    "published": "2026-07-21",
-    "deadline": "2026-09-23",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-call-towards-european-network-ocean-technology-testing-sites"
-  },
-  {
     "title": "Call for Supporting Fisheries Co-management “By Fishers, for Fishers”",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -43,6 +34,15 @@
     "published": "2026-07-21",
     "deadline": "2026-09-23",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-supporting-fisheries-co-management-fishers-fishers"
+  },
+  {
+    "title": "Horizon Europe | Towards a European network of ocean technology testing sites",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "SMEs",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-09-23",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-call-towards-european-network-ocean-technology-testing-sites"
   },
   {
     "title": "Tackle pollution from source to sea: Horizon Europe call for nature-positive solutions",
@@ -117,6 +117,15 @@
     "url": "https://ec.europa.eu/newsroom/cinea/redirection/item/950953/en"
   },
   {
+    "title": "New call supporting the development of regional Digital Twin Ocean components across European sea basins",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "2026-09-23",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/773"
+  },
+  {
     "title": "Horizon Europe opens new call for Marine Habitat Mapping projects",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -133,15 +142,6 @@
     "published": "2026-07-27",
     "deadline": "2026-09-23",
     "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/771"
-  },
-  {
-    "title": "New call supporting the development of regional Digital Twin Ocean components across European sea basins",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-07-27",
-    "deadline": "2026-09-23",
-    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/773"
   },
   {
     "title": "Call for proposals to support fisheries co-management in European sea basins",
@@ -378,24 +378,6 @@
     "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-tenders/call-tenders-emodnet-data-ingestion-service_en"
   },
   {
-    "title": "Innovation Fund 2025 Heat Auction",
-    "program": "INNOVATION FUND",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-12-12",
-    "deadline": "",
-    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-heat-auction_en"
-  },
-  {
-    "title": "Innovation Fund 2025 Hydrogen Auction",
-    "program": "INNOVATION FUND",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-12-12",
-    "deadline": "",
-    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-hydrogen-auction_en"
-  },
-  {
     "title": "Innovation Fund Net-Zero Technologies Call",
     "program": "INNOVATION FUND",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -414,6 +396,24 @@
     "url": "https://sustainable-energy-week.ec.europa.eu/policy-conference_en"
   },
   {
+    "title": "Innovation Fund 2025 Hydrogen Auction",
+    "program": "INNOVATION FUND",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2025-12-12",
+    "deadline": "",
+    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-hydrogen-auction_en"
+  },
+  {
+    "title": "Innovation Fund 2025 Heat Auction",
+    "program": "INNOVATION FUND",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2025-12-12",
+    "deadline": "",
+    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-heat-auction_en"
+  },
+  {
     "title": "EUSEW 2026 Policy Sessions",
     "program": "EU (F&T Portal)",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -421,15 +421,6 @@
     "published": "2025-11-24",
     "deadline": "",
     "url": "https://sustainable-energy-week.ec.europa.eu/policy-conference_en"
-  },
-  {
-    "title": "EUSEW Awards",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-11-24",
-    "deadline": "",
-    "url": "https://sustainable-energy-week.ec.europa.eu/awards_en"
   },
   {
     "title": "Test 2",
@@ -466,6 +457,15 @@
     "published": "2026-04-27",
     "deadline": "2026-05-29",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/blueactionaa-transition-agenda-call-1-funding-opportunity-transition-agendas-across"
+  },
+  {
+    "title": "BlueActionAA | Community-Led Action Call to Restore Ocean & Freshwater Ecosystems",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-04-27",
+    "deadline": "2026-05-29",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/blueactionaa-community-led-action-call-restore-ocean-freshwater-ecosystems"
   },
   {
     "title": "EMFAF Call for Tenders | Study on Blue Carbon Certification - developing certification rules for tidal marshes and seagrass meadows",
