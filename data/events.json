@@ -1,15 +1,5 @@
 [
   {
-    "title": "LIFE RIPARIAS final conference",
-    "date": "2026-09-08",
-    "end_date": "2026-09-09",
-    "date_label": "08-09 Sep 2026",
-    "type": "Conferences and summits",
-    "venue": "Conferences and summits LIFE RIPARIAS final conference Brussels, Belgium",
-    "link": "https://cinea.ec.europa.eu/news-events/events/life-riparias-final-conference-2026-09-08_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "Rivers of LIFE final seminar",
     "date": "2026-09-15",
     "end_date": "2026-09-17",
@@ -27,6 +17,16 @@
     "type": "Conferences and summits",
     "venue": "Thessaloniki, Greece",
     "link": "https://cinea.ec.europa.eu/news-events/events/civitas-forum-2026-2026-09-15_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "Accelerate Climate Transition (ACT) Day Brussels",
+    "date": "2026-09-30",
+    "end_date": "",
+    "date_label": "30 Sep 2026",
+    "type": "Expert meetings",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/accelerate-climate-transition-act-day-brussels-2026-09-30_en",
     "source": "CINEA homepage events"
   }
 ]
