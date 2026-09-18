@@ -1,32 +1,32 @@
 [
   {
-    "title": "CIVITAS Forum 2026",
-    "date": "2026-09-15",
-    "end_date": "2026-09-17",
-    "date_label": "15-17 Sep 2026",
-    "type": "Conferences and summits",
-    "venue": "Thessaloniki, Greece",
-    "link": "https://cinea.ec.europa.eu/news-events/events/civitas-forum-2026-2026-09-15_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "Rivers of LIFE final seminar",
-    "date": "2026-09-15",
-    "end_date": "2026-09-17",
-    "date_label": "15-17 Sep 2026",
-    "type": "Expert meetings",
-    "venue": "Brussels, Belgium",
-    "link": "https://cinea.ec.europa.eu/news-events/events/rivers-life-final-seminar-2026-09-15_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "Accelerate Climate Transition (ACT) Day Brussels",
     "date": "2026-09-30",
     "end_date": "",
     "date_label": "30 Sep 2026",
     "type": "Expert meetings",
-    "venue": "",
+    "venue": "Day Brussels Bruxelles , Belgium",
     "link": "https://cinea.ec.europa.eu/news-events/events/accelerate-climate-transition-act-day-brussels-2026-09-30_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "Fit for Biodiversity conference: solutions for the agri-food sector",
+    "date": "2026-10-06",
+    "end_date": "2026-10-07",
+    "date_label": "06-07 Oct 2026",
+    "type": "Conferences and summits",
+    "venue": "Brussels, Belgium",
+    "link": "https://cinea.ec.europa.eu/news-events/events/fit-biodiversity-conference-solutions-agri-food-sector-2026-10-06_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "Built4People Partnership Stakeholders Forum 2026",
+    "date": "2026-10-07",
+    "end_date": "",
+    "date_label": "07 Oct 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/built4people-partnership-stakeholders-forum-2026-2026-10-07_en",
     "source": "CINEA homepage events"
   }
 ]
