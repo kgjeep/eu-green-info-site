@@ -1,21 +1,11 @@
 [
   {
-    "title": "Accelerate Climate Transition (ACT) Day Brussels",
-    "date": "2026-09-30",
-    "end_date": "",
-    "date_label": "30 Sep 2026",
-    "type": "Expert meetings",
-    "venue": "Day Brussels Bruxelles , Belgium",
-    "link": "https://cinea.ec.europa.eu/news-events/events/accelerate-climate-transition-act-day-brussels-2026-09-30_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "International Conference on Ocean Energy (ICOE OEE) 2026",
     "date": "2026-10-05",
     "end_date": "2026-10-07",
     "date_label": "05-07 Oct 2026",
     "type": "Conferences and summits",
-    "venue": "Brussels, Belgium See all our events Publications",
+    "venue": "Brussels, Belgium",
     "link": "https://cinea.ec.europa.eu/news-events/events/international-conference-ocean-energy-icoe-oee-2026-2026-10-05_en",
     "source": "CINEA homepage events"
   },
@@ -25,8 +15,18 @@
     "end_date": "2026-10-07",
     "date_label": "06-07 Oct 2026",
     "type": "Conferences and summits",
-    "venue": "Brussels, Belgium See all our events Publications General publications",
+    "venue": "Brussels, Belgium",
     "link": "https://cinea.ec.europa.eu/news-events/events/fit-biodiversity-conference-solutions-agri-food-sector-2026-10-06_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "Built4People Partnership Stakeholders Forum 2026",
+    "date": "2026-10-07",
+    "end_date": "",
+    "date_label": "07 Oct 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/built4people-partnership-stakeholders-forum-2026-2026-10-07_en",
     "source": "CINEA homepage events"
   }
 ]
