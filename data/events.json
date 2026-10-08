@@ -1,35 +1,5 @@
 [
   {
-    "title": "International Conference on Ocean Energy (ICOE OEE) 2026",
-    "date": "2026-10-05",
-    "end_date": "2026-10-07",
-    "date_label": "05-07 Oct 2026",
-    "type": "Conferences and summits",
-    "venue": "Brussels, Belgium",
-    "link": "https://cinea.ec.europa.eu/news-events/events/international-conference-ocean-energy-icoe-oee-2026-2026-10-05_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "Fit for Biodiversity conference: solutions for the agri-food sector",
-    "date": "2026-10-06",
-    "end_date": "2026-10-07",
-    "date_label": "06-07 Oct 2026",
-    "type": "Conferences and summits",
-    "venue": "Brussels, Belgium",
-    "link": "https://cinea.ec.europa.eu/news-events/events/fit-biodiversity-conference-solutions-agri-food-sector-2026-10-06_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "Built4People Partnership Stakeholders Forum 2026",
-    "date": "2026-10-07",
-    "end_date": "",
-    "date_label": "07 Oct 2026",
-    "type": "Conferences and summits",
-    "venue": "Online only",
-    "link": "https://cinea.ec.europa.eu/news-events/events/built4people-partnership-stakeholders-forum-2026-2026-10-07_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "Compliance Services: Dealers' webinar about energy labelling requirements",
     "date": "2026-10-21",
     "end_date": "",
@@ -37,6 +7,36 @@
     "type": "Training and workshops",
     "venue": "Online only",
     "link": "https://cinea.ec.europa.eu/news-events/events/compliance-services-dealers-webinar-about-energy-labelling-requirements-2026-10-21_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "European Hydrogen Week 2026",
+    "date": "2026-10-26",
+    "end_date": "2026-10-30",
+    "date_label": "26-30 Oct 2026",
+    "type": "Conferences and summits",
+    "venue": "Online only",
+    "link": "https://cinea.ec.europa.eu/news-events/events/european-hydrogen-week-2026-2026-10-26_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "LIFE Networking Meeting on ‘Mapping Nature Restoration in LIFE Projects: taking stock and next steps’",
+    "date": "2026-10-27",
+    "end_date": "2026-10-28",
+    "date_label": "27-28 Oct 2026",
+    "type": "Expert meetings",
+    "venue": "Online only",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-networking-meeting-mapping-nature-restoration-life-projects-taking-stock-and-next-steps-2026-10-27_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "LIFE at World Green Infrastructure Congress 2026",
+    "date": "2026-10-27",
+    "end_date": "2026-10-30",
+    "date_label": "27-30 Oct 2026",
+    "type": "Conferences and summits",
+    "venue": "Barcelona, Spain See all our events Publications General publications",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-world-green-infrastructure-congress-2026-2026-10-27_en",
     "source": "CINEA homepage events"
   }
 ]
