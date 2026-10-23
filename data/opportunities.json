@@ -45,7 +45,7 @@
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/i3float-1st-open-call-funding-innovation-floating-offshore-wind"
   },
   {
-    "title": "I3FLOAT | 1st Open Call",
+    "title": "I3FLOAT | 1st Open Call Funding Innovation in Floating Offshore Wind",
     "program": "EU (F&T Portal)",
     "beneficiary": "SMEs",
     "country": "EU",
@@ -61,6 +61,42 @@
     "published": "2026-10-19",
     "deadline": "2026-11-16",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/sustainable-blue-economy-partnerships-fourth-joint-transnational-call"
+  },
+  {
+    "title": "IKI Medium Grants: Future proof coasts: digital and practical solutions for marine ecosystems | Deadline 12 January 2027",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-10-22",
+    "deadline": "2027-01-12",
+    "url": "https://www.international-climate-initiative.com/en/find-funding/medium-grants/medium-grants-2026/"
+  },
+  {
+    "title": "Call for Interest | Sustainable Blue Economy Partnership&#039;s Regional Portfolios | Deadline 9 December 2026",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "ΜΚΟ / Φορείς",
+    "country": "EU",
+    "published": "2026-10-22",
+    "deadline": "2026-12-09",
+    "url": "https://bluepartnership.eu/news/second-wave-regional-portfolio-call-expressions-interest-finally-here"
+  },
+  {
+    "title": "Aquaserv Fisheries call for access to research facilities | Deadline 4 December 2026",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-10-22",
+    "deadline": "",
+    "url": "https://www.aquaserv-ri.eu/fisheries-call"
+  },
+  {
+    "title": "Sustainable Blue Economy Partnership’s Fourth Joint Transnational Call | Deadline pre-proposal 16 November 2026",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-10-22",
+    "deadline": "2026-11-16",
+    "url": "https://www.bluepartnership.eu/funding-opportunity/sustainable-blue-economy-partnerships-fourth-joint-transnational-call"
   },
   {
     "title": "New call supporting transnational research and innovation for a sustainable blue economy",
@@ -108,6 +144,24 @@
     "url": "https://ec.europa.eu/newsroom/cinea/redirection/item/950953/en"
   },
   {
+    "title": "Horizon Europe opens new call for Marine Habitat Mapping projects",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/770"
+  },
+  {
+    "title": "Call for proposals to support ecosystem based solutions to aquatic pollution",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/771"
+  },
+  {
     "title": "Call for proposals to support fisheries co-management in European sea basins",
     "program": "EU (F&T Portal)",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -124,24 +178,6 @@
     "published": "2026-07-27",
     "deadline": "",
     "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/773"
-  },
-  {
-    "title": "Call for proposals to support ecosystem based solutions to aquatic pollution",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-07-27",
-    "deadline": "",
-    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/771"
-  },
-  {
-    "title": "Horizon Europe opens new call for Marine Habitat Mapping projects",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-07-27",
-    "deadline": "",
-    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/770"
   },
   {
     "title": "Addressing aquatic pollution and biodiversity loss through nature positive solutions from source to seas | Deadline 23 September 2026",
@@ -306,15 +342,6 @@
     "url": "https://www.deep-ecosystems.com/med-hubs"
   },
   {
-    "title": "Call for proposals to support Maritime Spatial Planning in the Atlantic and Black Sea",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-02-23",
-    "deadline": "",
-    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/call-proposals-support-maritime-spatial-planning-atlantic-and-black-sea_en"
-  },
-  {
     "title": "Innovation Fund 2025 Net-Zero Technologies call",
     "program": "INNOVATION FUND",
     "beneficiary": "SMEs",
@@ -324,6 +351,15 @@
     "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-net-zero-technologies-call_en"
   },
   {
+    "title": "Call for proposals to support Maritime Spatial Planning in the Atlantic and Black Sea",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-02-23",
+    "deadline": "",
+    "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/call-proposals-support-maritime-spatial-planning-atlantic-and-black-sea_en"
+  },
+  {
     "title": "Green Assist launches new call for projects seeking to strengthen their green investments",
     "program": "EU (F&T Portal)",
     "beneficiary": "SMEs",
@@ -331,15 +367,6 @@
     "published": "2026-02-23",
     "deadline": "",
     "url": "https://cinea.ec.europa.eu/news-events/news/green-assist-launches-new-call-projects-seeking-strengthen-their-green-investments-2026-02-19_en"
-  },
-  {
-    "title": "EUSEW Awards",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2025-12-12",
-    "deadline": "",
-    "url": "https://sustainable-energy-week.ec.europa.eu/awards_en"
   },
   {
     "title": "Sustainable Blue Economy Partnership Rolling Transnational Access Call to Research Infrastructures | Deadline 20 October",
@@ -378,15 +405,6 @@
     "url": "https://westmed-initiative.ec.europa.eu/large-scale-demonstration-for-mapping-the-distribution-and-condition-of-marine-habitats-to-implement-the-nature-restoration-regulation-deadline-23-september-2026/"
   },
   {
-    "title": "Call for Supporting Fisheries Co-management “By Fishers, for Fishers”",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-07-21",
-    "deadline": "2026-09-23",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-supporting-fisheries-co-management-fishers-fishers"
-  },
-  {
     "title": "Horizon Europe | Towards a European network of ocean technology testing sites",
     "program": "HORIZON EUROPE",
     "beneficiary": "SMEs",
@@ -394,6 +412,15 @@
     "published": "2026-07-21",
     "deadline": "2026-09-23",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-call-towards-european-network-ocean-technology-testing-sites"
+  },
+  {
+    "title": "Call for Supporting Fisheries Co-management “By Fishers, for Fishers”",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-09-23",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-supporting-fisheries-co-management-fishers-fishers"
   },
   {
     "title": "Tackle pollution from source to sea: Horizon Europe call for nature-positive solutions",
@@ -450,15 +477,6 @@
     "url": "https://berytech.org/programs/ufm-research-to-business/"
   },
   {
-    "title": "BlueActionAA – Transition Agenda Call 1 | Funding Opportunity for Transition Agendas Across the Atlantic & Arctic Basins",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-04-27",
-    "deadline": "2026-05-29",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/blueactionaa-transition-agenda-call-1-funding-opportunity-transition-agendas-across"
-  },
-  {
     "title": "EMFAF Call for Tenders | Study on Blue Carbon Certification - developing certification rules for tidal marshes and seagrass meadows",
     "program": "EU (F&T Portal)",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -511,23 +529,5 @@
     "published": "2026-02-12",
     "deadline": "2026-03-02",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/joint-call-blue-carbon-ecosystems-jpi-oceans"
-  },
-  {
-    "title": "Horizon Europe CL 5 | Call to Accelerate Wave Energy Innovation",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-02-12",
-    "deadline": "2026-02-18",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-cl-5-call-accelerate-wave-energy-innovation"
-  },
-  {
-    "title": "Horizon EU CL 5 | Understand and minimise the environmental impacts of offshore wind energy",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-02-12",
-    "deadline": "2026-02-18",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-eu-cl-5-understand-and-minimise-environmental-impacts-offshore-wind-energy"
   }
 ]
