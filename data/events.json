@@ -1,42 +1,42 @@
 [
   {
-    "title": "European Hydrogen Week 2026",
-    "date": "2026-10-26",
-    "end_date": "2026-10-30",
-    "date_label": "26-30 Oct 2026",
-    "type": "Conferences and summits",
-    "venue": "Brussels, Belgium",
-    "link": "https://cinea.ec.europa.eu/news-events/events/european-hydrogen-week-2026-2026-10-26_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "European Aeronautics Science Network (EASN) Conference 2026",
-    "date": "2026-10-27",
-    "end_date": "2026-10-30",
-    "date_label": "27-30 Oct 2026",
-    "type": "Conferences and summits",
-    "venue": "Barcelona, Spain",
-    "link": "https://cinea.ec.europa.eu/news-events/events/european-aeronautics-science-network-easn-conference-2026-2026-10-27_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "LIFE at World Green Infrastructure Congress 2026",
-    "date": "2026-10-27",
-    "end_date": "2026-10-30",
-    "date_label": "27-30 Oct 2026",
-    "type": "Conferences and summits",
-    "venue": "Barcelona, Spain",
-    "link": "https://cinea.ec.europa.eu/news-events/events/life-world-green-infrastructure-congress-2026-2026-10-27_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "Wingspan Conference 2026",
     "date": "2026-11-03",
     "end_date": "2026-11-05",
     "date_label": "03-05 Nov 2026",
     "type": "Conferences and summits",
-    "venue": "Berlin, Germany See all our events Publications General publications",
+    "venue": "Berlin, Germany",
     "link": "https://cinea.ec.europa.eu/news-events/events/wingspan-conference-2026-2026-11-03_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "CINEA at the Smart City Expo World Congress 2026",
+    "date": "2026-11-03",
+    "end_date": "2026-11-05",
+    "date_label": "03-05 Nov 2026",
+    "type": "Conferences and summits",
+    "venue": "L'Hospitalet de Llobregat, Spain",
+    "link": "https://cinea.ec.europa.eu/news-events/events/cinea-smart-city-expo-world-congress-2026-2026-11-03_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "20th SET Plan conference",
+    "date": "2026-11-04",
+    "end_date": "2026-11-05",
+    "date_label": "04-05 Nov 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/20th-set-plan-conference-2026-11-04_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "CINEA at COP 31",
+    "date": "2026-11-09",
+    "end_date": "2026-11-20",
+    "date_label": "09-20 Nov 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/cinea-cop-31-2026-11-09_en",
     "source": "CINEA homepage events"
   }
 ]
