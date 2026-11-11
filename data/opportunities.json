@@ -1,23 +1,5 @@
 [
   {
-    "title": "I3FLOAT 1st Open Call | Funding Innovation in Floating Offshore Wind",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "SMEs",
-    "country": "EU",
-    "published": "2026-10-19",
-    "deadline": "2026-11-10",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/i3float-1st-open-call-funding-innovation-floating-offshore-wind"
-  },
-  {
-    "title": "I3FLOAT | 1st Open Call Funding Innovation in Floating Offshore Wind",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "SMEs",
-    "country": "EU",
-    "published": "2026-10-21",
-    "deadline": "2026-11-10",
-    "url": "https://claner.es/i3float/open-calls/"
-  },
-  {
     "title": "Sustainable Blue Economy Partnership’s Fourth Joint Transnational Call",
     "program": "EU (F&T Portal)",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -135,24 +117,6 @@
     "url": "https://ec.europa.eu/newsroom/cinea/redirection/item/950953/en"
   },
   {
-    "title": "Call for proposals to support fisheries co-management in European sea basins",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-07-27",
-    "deadline": "",
-    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/772"
-  },
-  {
-    "title": "New call supporting the development of regional Digital Twin Ocean components across European sea basins",
-    "program": "EU (F&T Portal)",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-07-27",
-    "deadline": "",
-    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/773"
-  },
-  {
     "title": "Call for proposals to support ecosystem based solutions to aquatic pollution",
     "program": "HORIZON EUROPE",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -169,6 +133,24 @@
     "published": "2026-07-27",
     "deadline": "",
     "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/770"
+  },
+  {
+    "title": "Call for proposals to support fisheries co-management in European sea basins",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/772"
+  },
+  {
+    "title": "New call supporting the development of regional Digital Twin Ocean components across European sea basins",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-27",
+    "deadline": "",
+    "url": "https://black-sea-maritime-agenda.ec.europa.eu/node/773"
   },
   {
     "title": "Addressing aquatic pollution and biodiversity loss through nature positive solutions from source to seas | Deadline 23 September 2026",
@@ -342,6 +324,24 @@
     "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/innovation-fund-2025-net-zero-technologies-call_en"
   },
   {
+    "title": "I3FLOAT 1st Open Call | Funding Innovation in Floating Offshore Wind",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "SMEs",
+    "country": "EU",
+    "published": "2026-10-19",
+    "deadline": "2026-11-10",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/i3float-1st-open-call-funding-innovation-floating-offshore-wind"
+  },
+  {
+    "title": "I3FLOAT | 1st Open Call Funding Innovation in Floating Offshore Wind",
+    "program": "EU (F&T Portal)",
+    "beneficiary": "SMEs",
+    "country": "EU",
+    "published": "2026-10-21",
+    "deadline": "2026-11-10",
+    "url": "https://claner.es/i3float/open-calls/"
+  },
+  {
     "title": "4th Call for Projects | Interreg Atlantic Area Programme",
     "program": "INTERREG",
     "beneficiary": "Διάφοροι δικαιούχοι",
@@ -414,15 +414,6 @@
     "url": "https://westmed-initiative.ec.europa.eu/large-scale-demonstration-for-mapping-the-distribution-and-condition-of-marine-habitats-to-implement-the-nature-restoration-regulation-deadline-23-september-2026/"
   },
   {
-    "title": "Call for Supporting Fisheries Co-management “By Fishers, for Fishers”",
-    "program": "HORIZON EUROPE",
-    "beneficiary": "Διάφοροι δικαιούχοι",
-    "country": "EU",
-    "published": "2026-07-21",
-    "deadline": "2026-09-23",
-    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-supporting-fisheries-co-management-fishers-fishers"
-  },
-  {
     "title": "Horizon Europe | Towards a European network of ocean technology testing sites",
     "program": "HORIZON EUROPE",
     "beneficiary": "SMEs",
@@ -430,6 +421,15 @@
     "published": "2026-07-21",
     "deadline": "2026-09-23",
     "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/horizon-europe-call-towards-european-network-ocean-technology-testing-sites"
+  },
+  {
+    "title": "Call for Supporting Fisheries Co-management “By Fishers, for Fishers”",
+    "program": "HORIZON EUROPE",
+    "beneficiary": "Διάφοροι δικαιούχοι",
+    "country": "EU",
+    "published": "2026-07-21",
+    "deadline": "2026-09-23",
+    "url": "https://atlantic-maritime-strategy.ec.europa.eu/en/funding/calls/call-supporting-fisheries-co-management-fishers-fishers"
   },
   {
     "title": "Tackle pollution from source to sea: Horizon Europe call for nature-positive solutions",
