@@ -5,18 +5,8 @@
     "end_date": "2026-11-20",
     "date_label": "09-20 Nov 2026",
     "type": "Conferences and summits",
-    "venue": "Ongoing Conferences and summits ENLIT Europe Vienna, Austria",
+    "venue": "Climate, Energy and Mobility",
     "link": "https://cinea.ec.europa.eu/news-events/events/cinea-cop-31-2026-11-09_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "ENLIT Europe",
-    "date": "2026-11-11",
-    "end_date": "2026-11-12",
-    "date_label": "11-12 Nov 2026",
-    "type": "Conferences and summits",
-    "venue": "Ongoing Conferences and summits ENLIT Europe Vienna, Austria",
-    "link": "https://cinea.ec.europa.eu/news-events/events/enlit-europe-2026-11-11_en",
     "source": "CINEA homepage events"
   },
   {
@@ -35,8 +25,18 @@
     "end_date": "2026-11-25",
     "date_label": "24-25 Nov 2026",
     "type": "Conferences and summits",
-    "venue": "",
+    "venue": "Forum on Solutions to Climate Change Adaptation Bilbao , Spain",
     "link": "https://cinea.ec.europa.eu/news-events/events/adapt-aktion-euskadi-2050-forum-solutions-climate-change-adaptation-2026-11-24_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "LIFE Platform Meeting on Carbon Farming",
+    "date": "2026-11-25",
+    "end_date": "2026-11-26",
+    "date_label": "25-26 Nov 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-platform-meeting-carbon-farming-2026-11-25_en",
     "source": "CINEA homepage events"
   }
 ]
