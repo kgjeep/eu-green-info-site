@@ -5,18 +5,8 @@
     "end_date": "2026-11-20",
     "date_label": "09-20 Nov 2026",
     "type": "Conferences and summits",
-    "venue": "Climate, Energy and Mobility",
+    "venue": "Forum on Solutions to Climate Change Adaptation Bilbao , Spain",
     "link": "https://cinea.ec.europa.eu/news-events/events/cinea-cop-31-2026-11-09_en",
-    "source": "CINEA homepage events"
-  },
-  {
-    "title": "ADAPT AKTION Euskadi 2050: Forum on Solutions to Climate Change Adaptation",
-    "date": "2026-11-19",
-    "end_date": "",
-    "date_label": "19 Nov 2026",
-    "type": "Info days",
-    "venue": "Climate, Energy and Mobility",
-    "link": "https://cinea.ec.europa.eu/news-events/events/adapt-aktion-euskadi-2050-forum-solutions-climate-change-adaptation-2026-11-24_en",
     "source": "CINEA homepage events"
   },
   {
@@ -37,6 +27,16 @@
     "type": "Conferences and summits",
     "venue": "",
     "link": "https://cinea.ec.europa.eu/news-events/events/life-platform-meeting-carbon-farming-2026-11-25_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "EMFAF info day: Scientific Advice for Fisheries",
+    "date": "2026-11-27",
+    "end_date": "",
+    "date_label": "27 Nov 2026",
+    "type": "Info days",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/emfaf-info-day-scientific-advice-fisheries-2026-11-27_en",
     "source": "CINEA homepage events"
   }
 ]
