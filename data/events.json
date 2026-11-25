@@ -1,15 +1,5 @@
 [
   {
-    "title": "ADAPT AKTION Euskadi 2050: Forum on Solutions to Climate Change Adaptation",
-    "date": "2026-11-24",
-    "end_date": "2026-11-25",
-    "date_label": "24-25 Nov 2026",
-    "type": "Conferences and summits",
-    "venue": "Forum on Solutions to Climate Change Adaptation Bilbao , Spain",
-    "link": "https://cinea.ec.europa.eu/news-events/events/adapt-aktion-euskadi-2050-forum-solutions-climate-change-adaptation-2026-11-24_en",
-    "source": "CINEA homepage events"
-  },
-  {
     "title": "LIFE Platform Meeting on Carbon Farming",
     "date": "2026-11-25",
     "end_date": "2026-11-26",
@@ -25,18 +15,28 @@
     "end_date": "",
     "date_label": "27 Nov 2026",
     "type": "Info days",
-    "venue": "PCI Energy Days Brussels, Belgium See all our events Publications",
+    "venue": "PCI Energy Days Brussels, Belgium",
     "link": "https://cinea.ec.europa.eu/news-events/events/emfaf-info-day-scientific-advice-fisheries-2026-11-27_en",
     "source": "CINEA homepage events"
   },
   {
-    "title": "7th PCI Energy Days",
+    "title": "LIFE Platform Meeting on Chemicals",
     "date": "2026-12-01",
     "end_date": "2026-12-02",
     "date_label": "01-02 Dec 2026",
     "type": "Conferences and summits",
-    "venue": "PCI Energy Days Brussels, Belgium See all our events Publications Report",
-    "link": "https://energy.ec.europa.eu/events/7th-pci-energy-days-2026-12-01_en",
+    "venue": "PCI Energy Days Brussels, Belgium",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-platform-meeting-chemicals-2026-12-02_en",
+    "source": "CINEA homepage events"
+  },
+  {
+    "title": "LIFE Platform Meeting on Chemicals",
+    "date": "2026-12-02",
+    "end_date": "2026-12-03",
+    "date_label": "02-03 Dec 2026",
+    "type": "Conferences and summits",
+    "venue": "",
+    "link": "https://cinea.ec.europa.eu/news-events/events/life-platform-meeting-chemicals-2026-12-02_en",
     "source": "CINEA homepage events"
   }
 ]
